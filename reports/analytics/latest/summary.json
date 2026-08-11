@@ -1,0 +1,234 @@
+{
+    "timestamp": "2026-07-27 14:53:31",
+    "dataset_path": "D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex\\datasets\\master_dataset.parquet",
+    "output_dir": "D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex\\reports\\analytics\\latest",
+    "total_elapsed_seconds": 3.1515,
+    "modules": {
+        "statistics": {
+            "module": "statistics",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 4,
+            "metrics": {
+                "rows": 2000,
+                "columns": 116,
+                "numeric_columns": 115,
+                "memory_bytes": 1366132,
+                "duplicate_rows": 0,
+                "constant_columns": 13,
+                "near_constant_columns": 1,
+                "zero_variance_columns": 13,
+                "missing_cells": 0,
+                "inf_cells": 0
+            },
+            "elapsed_seconds": 0.2666,
+            "message": "Statistics completed successfully. Wrote 4 artifacts to D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex\\reports\\analytics\\latest\\statistics."
+        },
+        "tail_statistics": {
+            "module": "tail_statistics",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 4,
+            "metrics": {
+                "numeric_columns_analyzed": 115,
+                "label_columns_detected": 7,
+                "max_3std_extremes_single_col": 65
+            },
+            "elapsed_seconds": 0.2704,
+            "message": "Tail statistics completed successfully. Wrote 4 artifacts to D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex\\reports\\analytics\\latest\\tails."
+        },
+        "regime_analysis": {
+            "module": "regime_analysis",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 4,
+            "metrics": {
+                "number_of_regimes": 18,
+                "best_regime": "Good Execution (mean_future_return: 0.0042)",
+                "worst_regime": "Asian Session (mean_future_return: -0.0014)",
+                "largest_regime": "Non-Overlap (1,640 rows, 82.0%)",
+                "smallest_regime": "Session Overlap (360 rows, 18.0%)",
+                "detected_columns": [
+                    "trend_strength",
+                    "market_structure",
+                    "volatility_expanding",
+                    "ema_stack_bull",
+                    "ema_stack_bear",
+                    "asian",
+                    "london",
+                    "newyork",
+                    "overlap",
+                    "future_direction",
+                    "future_return",
+                    "good_execution",
+                    "return",
+                    "body_pct",
+                    "body_abs"
+                ],
+                "missing_columns": [
+                    "session",
+                    "bad_execution"
+                ]
+            },
+            "elapsed_seconds": 0.0473,
+            "message": "Regime analysis completed successfully for 18 market regimes."
+        },
+        "correlation_analysis": {
+            "module": "correlation",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 5,
+            "metrics": {
+                "total_numeric_features": 103,
+                "high_corr_pairs": 83,
+                "max_corr_partners_count": 11,
+                "recommended_drop": 13,
+                "recommended_merge": 27,
+                "recommended_keep": 63,
+                "top_unique_features": [
+                    "volume",
+                    "volume_zscore",
+                    "volume_delta",
+                    "volume_pct_change",
+                    "volume_expanding"
+                ],
+                "top_redundant_features": [
+                    "ema_dist_50",
+                    "ema_slope_50",
+                    "ema_dist_20",
+                    "ema_slope_20",
+                    "rsi_14"
+                ]
+            },
+            "elapsed_seconds": 0.2182,
+            "message": "Correlation analysis completed successfully. Found 83 high correlation pairs across 103 features."
+        },
+        "stability_analysis": {
+            "module": "stability",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 6,
+            "metrics": {
+                "overall_score": 100.0,
+                "yearly_periods_count": 1,
+                "quarterly_periods_count": 1,
+                "monthly_periods_count": 1,
+                "stable_features": [
+                    "open",
+                    "high",
+                    "low",
+                    "close",
+                    "volume"
+                ],
+                "unstable_features": [
+                    "reward_risk",
+                    "survived",
+                    "grid_expansion",
+                    "future_max_down",
+                    "future_max_up"
+                ],
+                "unstable_labels": []
+            },
+            "elapsed_seconds": 0.2571,
+            "message": "Stability analysis completed across 1 monthly segments. Overall Score: 100.00/100."
+        },
+        "hypothesis_discovery": {
+            "module": "hypothesis_discovery",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 4,
+            "metrics": {
+                "total_hypotheses_discovered": 624,
+                "strongest_hypothesis": "Regime good_execution (1 vs 0) -> future_return (confidence: 100.0)",
+                "average_effect_size": 320513.2581,
+                "inconclusive_count": 327,
+                "top_features_for_validation": [
+                    "good_execution",
+                    "future_max_up",
+                    "price_velocity",
+                    "london",
+                    "market_structure"
+                ]
+            },
+            "elapsed_seconds": 1.4904,
+            "message": "Hypothesis discovery completed. Discovered and ranked 624 hypotheses."
+        },
+        "feature_importance": {
+            "module": "feature_importance",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 4,
+            "metrics": {
+                "features_analyzed": 108,
+                "target_columns_detected": 7,
+                "has_labels": true,
+                "top_feature": "price_velocity",
+                "top_composite_score": 0.8
+            },
+            "elapsed_seconds": 0.5027,
+            "message": "Feature importance ranking completed successfully for 108 features."
+        },
+        "parameter_surface": {
+            "module": "parameter_surface",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 4,
+            "metrics": {
+                "has_parameter_inputs": true,
+                "parameter_columns": [
+                    "grid_expansion"
+                ],
+                "metric_columns": [
+                    "volume_zscore",
+                    "zscore_20",
+                    "zscore_50",
+                    "zscore_100",
+                    "return",
+                    "future_return"
+                ],
+                "surface_rows": 1663
+            },
+            "elapsed_seconds": 0.0102,
+            "message": "Analyzed parameter surface for 'grid_expansion' against 'volume_zscore'."
+        },
+        "reporting": {
+            "module": "reporting",
+            "success": true,
+            "rows": 2000,
+            "columns": 116,
+            "files": 3,
+            "metrics": {
+                "framework": "APEX Quant Research Framework",
+                "module": "reporting",
+                "timestamp": "2026-07-27 14:53:31",
+                "dataset_rows": 2000,
+                "dataset_columns": 116,
+                "sub_modules": [
+                    "statistics",
+                    "tail_statistics",
+                    "regime_analysis",
+                    "correlation_analysis",
+                    "stability_analysis",
+                    "hypothesis_discovery",
+                    "feature_importance",
+                    "parameter_surface"
+                ],
+                "generated_reports": [
+                    "Research_Report.md",
+                    "Research_Report.html",
+                    "summary.json"
+                ]
+            },
+            "elapsed_seconds": 0.0551,
+            "message": "Reporting completed successfully. Unified reports written to output directory."
+        }
+    }
+}

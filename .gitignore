@@ -1,0 +1,61 @@
+# Python Core & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Logs and Backtest Reports
+/MQL5/Logs/
+/MQL5/Profiles/Tester/
+*.log
+*.dmp
+*.htm
+*.html
+
+# Data Files & Research Outputs (Pickles, Parquet, CSVs, Tick Data)
+*.csv
+*.parquet
+*.pkl
+*.bin
+*.fxt
+*.hst
+*.zip
+*.rar
+
+# IDEs and OS Temporary Files
+.vscode/
+.antigravity-ide/
+.idea/
+Thumbs.db
+desktop.ini

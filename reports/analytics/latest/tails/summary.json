@@ -1,0 +1,15 @@
+{
+    "module": "tail_statistics",
+    "timestamp": "2026-07-27 14:53:29",
+    "metrics": {
+        "numeric_columns_analyzed": 115,
+        "label_columns_detected": 7,
+        "max_3std_extremes_single_col": 65
+    },
+    "files_generated": [
+        "tail_statistics.csv",
+        "tail_percentiles.csv",
+        "tail_summary.md",
+        "summary.json"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "framework": "APEX Quant Research Framework",
+    "module": "correlation",
+    "timestamp": "2026-07-27 14:53:29",
+    "dataset_rows": 2000,
+    "dataset_columns": 116,
+    "files_generated": [
+        "correlation_matrix.csv",
+        "high_correlation_pairs.csv",
+        "feature_redundancy.csv",
+        "correlation_report.md",
+        "summary.json"
+    ],
+    "metrics": {
+        "total_numeric_features": 103,
+        "high_corr_pairs": 83,
+        "max_corr_partners_count": 11,
+        "recommended_drop": 13,
+        "recommended_merge": 27,
+        "recommended_keep": 63,
+        "top_unique_features": [
+            "volume",
+            "volume_zscore",
+            "volume_delta",
+            "volume_pct_change",
+            "volume_expanding"
+        ],
+        "top_redundant_features": [
+            "ema_dist_50",
+            "ema_slope_50",
+            "ema_dist_20",
+            "ema_slope_20",
+            "rsi_14"
+        ]
+    },
+    "elapsed_seconds": 0.2182,
+    "message": "Correlation analysis completed successfully. Found 83 high correlation pairs across 103 features."
+}

@@ -1,0 +1,43 @@
+{
+    "framework": "APEX Quant Research Framework",
+    "module": "regime_analysis",
+    "timestamp": "2026-07-27 14:53:29",
+    "dataset_rows": 2000,
+    "dataset_columns": 116,
+    "files_generated": [
+        "regime_summary.csv",
+        "regime_metrics.csv",
+        "regime_report.md",
+        "summary.json"
+    ],
+    "metrics": {
+        "number_of_regimes": 18,
+        "best_regime": "Good Execution (mean_future_return: 0.0042)",
+        "worst_regime": "Asian Session (mean_future_return: -0.0014)",
+        "largest_regime": "Non-Overlap (1,640 rows, 82.0%)",
+        "smallest_regime": "Session Overlap (360 rows, 18.0%)",
+        "detected_columns": [
+            "trend_strength",
+            "market_structure",
+            "volatility_expanding",
+            "ema_stack_bull",
+            "ema_stack_bear",
+            "asian",
+            "london",
+            "newyork",
+            "overlap",
+            "future_direction",
+            "future_return",
+            "good_execution",
+            "return",
+            "body_pct",
+            "body_abs"
+        ],
+        "missing_columns": [
+            "session",
+            "bad_execution"
+        ]
+    },
+    "elapsed_seconds": 0.0473,
+    "message": "Regime analysis completed successfully for 18 market regimes."
+}

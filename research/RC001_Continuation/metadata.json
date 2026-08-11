@@ -1,0 +1,7 @@
+{
+    "campaign_name": "RC001_Continuation",
+    "research_question": "Does the market exhibit statistically significant continuation after directional movement?",
+    "hypothesis": "Directional market continuation exists, and its regime can be identified statistically to produce positive expectancy.",
+    "timestamp": "2026-07-27T17:11:01.494053",
+    "analytics_source": "D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex\\reports\\analytics\\latest"
+}

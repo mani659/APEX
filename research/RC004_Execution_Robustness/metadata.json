@@ -1,0 +1,7 @@
+{
+    "campaign_name": "RC004_Execution_Robustness",
+    "research_question": "Does the observed continuation edge remain meaningful after introducing realistic execution assumptions?",
+    "hypothesis": "The continuation effect remains statistically meaningful after reasonable execution friction is considered.",
+    "timestamp": "2026-07-27T17:17:18.565544",
+    "analytics_source": "D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex\\reports\\analytics\\latest"
+}

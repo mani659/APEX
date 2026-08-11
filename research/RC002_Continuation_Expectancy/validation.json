@@ -1,0 +1,27 @@
+{
+    "campaign": "RC002_Continuation_Expectancy",
+    "classification": "PARTIALLY_SUPPORTED",
+    "score": 83,
+    "criteria": {
+        "Sample Size": 0,
+        "Consistency": 1,
+        "Temporal Stability": 1,
+        "Regime Stability": 1,
+        "Tail Risk": 1,
+        "Data Quality": 1
+    },
+    "passed": [
+        "Consistency: Effect direction remains consistent.",
+        "Temporal Stability: Acceptable variation through time.",
+        "Regime Stability: Not concentrated in one isolated regime.",
+        "Tail Risk: No severe instability indicated by analytics.",
+        "Data Quality: Analytics completed successfully."
+    ],
+    "failed": [
+        "Sample Size: Insufficient observations (18)."
+    ],
+    "recommendations": [
+        "Increase dataset timeframe to achieve statistical significance."
+    ],
+    "timestamp": "2026-07-27T17:11:02.209823"
+}

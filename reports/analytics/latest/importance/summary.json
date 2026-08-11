@@ -1,0 +1,17 @@
+{
+    "module": "feature_importance",
+    "timestamp": "2026-07-27 14:53:31",
+    "metrics": {
+        "features_analyzed": 108,
+        "target_columns_detected": 7,
+        "has_labels": true,
+        "top_feature": "price_velocity",
+        "top_composite_score": 0.8
+    },
+    "files_generated": [
+        "feature_importance.csv",
+        "importance_rank.csv",
+        "importance_summary.md",
+        "summary.json"
+    ]
+}

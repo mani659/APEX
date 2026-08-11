@@ -1,0 +1,38 @@
+{
+    "framework": "APEX Quant Research Framework",
+    "module": "stability",
+    "timestamp": "2026-07-27 14:53:29",
+    "dataset_rows": 2000,
+    "dataset_columns": 116,
+    "files_generated": [
+        "yearly_statistics.csv",
+        "quarterly_statistics.csv",
+        "monthly_statistics.csv",
+        "feature_stability.csv",
+        "stability_summary.md",
+        "summary.json"
+    ],
+    "metrics": {
+        "overall_score": 100.0,
+        "yearly_periods_count": 1,
+        "quarterly_periods_count": 1,
+        "monthly_periods_count": 1,
+        "stable_features": [
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume"
+        ],
+        "unstable_features": [
+            "reward_risk",
+            "survived",
+            "grid_expansion",
+            "future_max_down",
+            "future_max_up"
+        ],
+        "unstable_labels": []
+    },
+    "elapsed_seconds": 0.2571,
+    "message": "Stability analysis completed across 1 monthly segments. Overall Score: 100.00/100."
+}

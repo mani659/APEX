@@ -1,0 +1,25 @@
+{
+    "module": "parameter_surface",
+    "timestamp": "2026-07-27 14:53:31",
+    "metrics": {
+        "has_parameter_inputs": true,
+        "parameter_columns": [
+            "grid_expansion"
+        ],
+        "metric_columns": [
+            "volume_zscore",
+            "zscore_20",
+            "zscore_50",
+            "zscore_100",
+            "return",
+            "future_return"
+        ],
+        "surface_rows": 1663
+    },
+    "files_generated": [
+        "surface.csv",
+        "surface_metrics.csv",
+        "surface_summary.md",
+        "summary.json"
+    ]
+}

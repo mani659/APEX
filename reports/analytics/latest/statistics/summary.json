@@ -1,0 +1,22 @@
+{
+    "module": "statistics",
+    "timestamp": "2026-07-27 14:53:28",
+    "metrics": {
+        "rows": 2000,
+        "columns": 116,
+        "numeric_columns": 115,
+        "memory_bytes": 1366132,
+        "duplicate_rows": 0,
+        "constant_columns": 13,
+        "near_constant_columns": 1,
+        "zero_variance_columns": 13,
+        "missing_cells": 0,
+        "inf_cells": 0
+    },
+    "files_generated": [
+        "dataset_statistics.csv",
+        "feature_statistics.csv",
+        "dataset_summary.md",
+        "summary.json"
+    ]
+}

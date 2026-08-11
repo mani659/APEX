@@ -1,0 +1,28 @@
+{
+    "framework": "APEX Quant Research Framework",
+    "module": "hypothesis_discovery",
+    "timestamp": "2026-07-27 14:53:31",
+    "dataset_rows": 2000,
+    "dataset_columns": 116,
+    "files_generated": [
+        "discovered_hypotheses.csv",
+        "ranked_hypotheses.csv",
+        "hypothesis_report.md",
+        "summary.json"
+    ],
+    "metrics": {
+        "total_hypotheses_discovered": 624,
+        "strongest_hypothesis": "Regime good_execution (1 vs 0) -> future_return (confidence: 100.0)",
+        "average_effect_size": 320513.2581,
+        "inconclusive_count": 327,
+        "top_features_for_validation": [
+            "good_execution",
+            "future_max_up",
+            "price_velocity",
+            "london",
+            "market_structure"
+        ]
+    },
+    "elapsed_seconds": 1.4904,
+    "message": "Hypothesis discovery completed. Discovered and ranked 624 hypotheses."
+}
