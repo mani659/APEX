@@ -8,6 +8,7 @@ class MarketSnapshot:
     current_price: float
     current_atr: float
     closes: List[float]
+    opens: List[float]
     volumes: List[float]
     is_new_bar: bool
 
@@ -15,6 +16,7 @@ class MarketDataLayer:
     def __init__(self, atr_period: int = 14):
         self.atr_period = atr_period
         self.closes = deque(maxlen=atr_period + 1)
+        self.opens = deque(maxlen=atr_period + 1)
         self.highs = deque(maxlen=atr_period + 1)
         self.lows = deque(maxlen=atr_period + 1)
         self.volumes = deque(maxlen=atr_period + 1)
@@ -28,6 +30,7 @@ class MarketDataLayer:
         return self._build_snapshot()
 
     def update_bar(self, open_price: float, high: float, low: float, close: float, volume: float) -> MarketSnapshot:
+        self.opens.append(open_price)
         self.highs.append(high)
         self.lows.append(low)
         self.closes.append(close)
@@ -58,6 +61,7 @@ class MarketDataLayer:
             current_price=self.current_price,
             current_atr=self.current_atr,
             closes=list(self.closes),
+            opens=list(self.opens),
             volumes=list(self.volumes),
             is_new_bar=self.is_new_bar
         )

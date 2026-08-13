@@ -40,6 +40,14 @@ This document serves as the permanent historical record for all pre-Apex and Ape
   - **Purpose:** Finalized the software architecture, traceability matrix, runtime execution cycle, and module interfaces for the canonical Python Reference Engine.
   - **Governance:** The Python architecture is now constitutionally frozen. RC005 is strictly limited to faithful implementation without architectural redesign.
 
+### Apex RC007: De-conflation of Entry and Exit Alpha
+- **Studies 001-010**: Investigated whether the Apex behavioural entry signal possesses statistically significant alpha independent of grid-based recovery mechanics.
+- **Conclusion**: The hypothesis was totally rejected. De-conflation proved the signal possesses negative expectancy. The grid recovery never triggered under frozen rules (max depth 1). The historical profitability is entirely a statistical illusion created by an asymmetric exit architecture harvesting tiny wins while hiding massive, negatively-skewed tail risks.
+
+### Apex RC008: Conditional Market Context Research
+- **Studies 001-002**: Investigated whether the rejected V1 Behavioral Event could be rescued by filtering it using standard market context (Volatility, Trend, Liquidity, Pre-event Path, Temporal).
+- **Conclusion**: The V1 Context-Rescue path is permanently closed. No context category produced a meaningful effect size. The negative alpha of the V1 event is unconditional.
+
 
 
 ---
@@ -99,6 +107,32 @@ This document serves as the permanent historical record for all pre-Apex and Ape
   - Future research now constrained to build upon frozen knowledge rather than rediscover it.
 - **Frozen**: YES
 
+### RC007: Apex V1 Alpha Validation
+- **Research Question**: Does the Apex behavioural entry signal possess statistically significant alpha independent of grid-based recovery mechanics?
+- **Evidence**: RC007 Studies 007-009 (Dual and Triple Mode De-conflation).
+- **Outcome**: Rejected
+- **Knowledge Gained**: High historical win rates were a statistical illusion created by asymmetric payoffs. Grid recovery was a phantom component that never fired. The underlying signal possesses negative predictive edge.
+- **Knowledge Removed**: The belief that the frozen V1 rules contained validated standalone alpha.
+- **Reason For Next Study**: The campaign was closed. The next research campaign must start from the empirical fact that the V1 formulation is rejected.
+- **Frozen?**: Campaign CLOSED - HYPOTHESIS REJECTED.
+
+### RC008: V1 Context-Rescue Investigation
+- **Research Question**: Are there measurable market-context conditions under which the V1 behavioural event's subsequent outcome distribution becomes materially better than its unconditional baseline?
+- **Evidence**: RC008 Study 001 (Context Dataset extraction & Comparison Report).
+- **Outcome**: Rejected (Not Supported)
+- **Knowledge Gained**: Standard volatility, trend, liquidity, path, and temporal contexts fail to extract conditional edge from the V1 event. The event's negative expectancy is unconditional.
+- **Knowledge Removed**: The belief that the V1 event could be rescued by adding conventional filters.
+- **Reason For Next Study**: The V1 rescue path is closed. Future research must search for a genuinely different behavioral formulation.
+- **Frozen?**: Campaign CLOSED - NOT SUPPORTED.
+
+### RC009: Behavioral Discovery Campaign
+- **Research Question**: Does isolated EURUSD M1 behavior possess structural predictability via local sequences, participation behaviors, cross-market synchronization, or higher-timeframe regime conditioning?
+- **Evidence**: RC009 Studies 001-006.
+- **Outcome**: Rejected (Negative Discovery Campaign)
+- **Knowledge Gained**: The tested RC009 behavioral formulations did not demonstrate robust predictive alpha on EURUSD M1.
+- **Knowledge Removed**: The belief that basic local M1 patterns, M1 state sequences, contemporaneous cross-market state synchronization, or H4 regime conditioning contain robust, scalable predictive edge on EURUSD M1.
+- **Reason For Next Study**: The behavioral discovery campaign is permanently closed.
+- **Frozen?**: Campaign CLOSED - FROZEN NEGATIVE.
 
 ---
 
@@ -125,6 +159,20 @@ This document serves as the permanent historical record for all pre-Apex and Ape
 | **R005** | Structural Context (Range Position) reduces Behavioral Response entropy. | RC002 Study 008 | Confirmed | Information gain was <3% even under sensitivity perturbations. |
 | **R006** | Pre-event Behavioral Archetypes (Momentum) reduce Behavioral Response entropy. | RC002 Study 009 | Confirmed | Completely orthogonal to edge; no information gain. |
 | **R007** | A rigid set of static behavioral and contextual thresholds (e.g., 3.0x ATR + Vol Pct < 0.25) generalizes universally across major asset classes. | RC002 Study 013 | Confirmed | Over a 5-year sample, 4 out of 5 markets starved completely. Instrument-specific artifact. |
+| **R008** | The frozen Apex Version 1 behavioral entry provides a standalone positive expectancy edge. | RC007 Study 007, 009 | Confirmed | Standalone entry expectancy is negative and win rate is low (35.1%). |
+| **R009** | The historical profitability of V1 is driven by adaptive grid expansion recovering losers. | RC007 Study 008 | Confirmed | Grid expansion never triggers under the frozen rules (max depth 1). |
+| **R010** | A high win rate generated by asymmetric payoff structures implies a viable trading edge. | RC007 Study 009 | Confirmed | Masks extreme negatively-skewed tail risk (worst 5% holds 88% of loss footprint); guarantees ruin under infinite time. |
+| **R011** | Standard Volatility Context (ATR percentiles) rescues the V1 event. | RC008 Study 001 | Confirmed | Effect size too weak (Cohen's d = 0.12). |
+| **R012** | Standard Trend Context (Distance to Mean, Return Slope) rescues the V1 event. | RC008 Study 001 | Confirmed | Effect sizes too weak (Cohen's d < 0.15). |
+| **R013** | Standard Liquidity/Temporal/Path contexts rescue the V1 event. | RC008 Study 001 | Confirmed | Effect sizes too weak (Cohen's d < 0.15). |
+| **R014** | Local M1 behavioral patterns (momentum, absorption, flag) predict directional returns. | RC009 Study 001 | Confirmed | Effect sizes near zero with massive statistical power. |
+| **R015** | M1 state sequences (N=3, N=5) add meaningful information beyond the terminal state. | RC009 Study 003 | Confirmed | Sequences converged back to terminal state baselines. |
+| **R016** | Cross-market synchronization (XAUUSD, BTCUSD, etc.) provides incremental M1 edge. | RC009 Study 004 | Confirmed | No contemporaneous or short-lag relationships met criteria. |
+| **R017** | H4 volatility/direction regimes materially alter expected M1 state outcomes. | RC009 Study 006 | Confirmed | H4 regime provided no meaningful incremental structure. |
+| **R018** | Deterministic session transitions (e.g. ASIA_TO_LONDON, LONDON_NY_OVERLAP) materially alter EURUSD future movement distributions independent of prediction. | RC013 Study 001, 002 | Confirmed | Validated structural primitives, survived chronological OOS. |
+| **R019** | Session expansion exhibits higher movement with directionally efficient path geometry relative to the HIGH_VOL chop regime. | RC013 Study 003 | Confirmed | Classified as TYPE A Directionally Efficient Expansion. |
+| **R020** | The raw immediate pre-session-range breakout architecture generates positive expectancy. | RC013 Study 004 | Rejected | Architecture produced negative expectancy and severe tail-losses. |
+| **R021** | Transaction-cost reduction alone rescues the raw breakout architecture. | RC013 Study 004 | Rejected | Expectancy remained negative even at 0.5 pip transaction costs. |
 
 ---
 
@@ -156,6 +204,13 @@ The following concepts have survived rigorous QA and are considered stable resea
 - **Liquidity sweeps are too common.** The standard institutional sweep is heavily noisy and ineffective as a standalone continuation signal.
 - **Behavioral responses fragment.** A single massive exhaustion event does not guarantee a single type of recoil; the taxonomy of outcomes must be respected.
 - **Participation carries information.** Neither structural position, distance to the mean, nor volatility state explain behavioral fragmentation—but the volume participation density does.
+- **A strong-looking win rate can be manufactured by payoff asymmetry.**
+- **Entry quality must be measured independently of recovery and exits.**
+- **A grid that never activates cannot be credited for historical profitability.**
+- **MAE/MFE distribution is more informative than win rate alone.**
+- **Negative results are valuable because they eliminate false explanations.**
+- **Apex must not mistake a successful payoff distribution for predictive alpha.**
+- **A fundamentally negative-expectancy event cannot be rescued purely by conventional context filtering.**
 
 ---
 
@@ -181,6 +236,21 @@ The following concepts have survived rigorous QA and are considered stable resea
 | RC002 | 011 | Contextual Interaction | Supported | N/A |
 | RC002 | 012 | Execution Policy Evaluation | Supported (Absorption Entry) | N/A |
 | RC002 | 013 | Cross-Market Execution Robustness | Rejected | Confirmed (Campaign Archived) |
+| RC007 | 007 | Isolated Entry Expectancy | Rejected | Confirmed |
+| RC007 | 008 | Recovery Architecture De-conflation | Rejected (No Grid Expansion) | Confirmed |
+| RC007 | 009 | Exit Architecture De-conflation | High-Win-Rate Illusion | Confirmed |
+| RC007 | 010 | Campaign Closure | Hypothesis Rejected | Confirmed (Campaign Closed) |
+| RC008 | 001 | Conditional Context Exploration | Rejected (No Evidence) | Confirmed |
+| RC008 | 002 | V1 Context-Rescue Closure | Path Closed | Confirmed |
+| RC009 | 001 | Local Behavioral Discovery | Rejected | Confirmed |
+| RC009 | 003 | State Sequences | Rejected | Confirmed |
+| RC009 | 004 | Cross-Market Synchronization | Rejected | Confirmed |
+| RC009 | 005 | Discovery Review & Closure Assessment | Supported (Decision to close) | Confirmed |
+| RC009 | 006 | H4 Regime Conditioning | Rejected | Confirmed (Campaign Closed) |
+| RC013 | 001 | Session / Calendar Structural Mechanics Discovery | Candidate Structural Edge | Confirmed |
+| RC013 | 002 | Independent Validation | Validated Structural Primitive | Confirmed |
+| RC013 | 003 | Session Transition Path Geometry | TYPE A Directionally Efficient | Confirmed |
+| RC013 | 004 | Session Transition Breakout Monetization | Architecture Rejected | Confirmed (Campaign Closed) |
 
 ---
 

@@ -11,19 +11,19 @@ class TestSignalObservation(unittest.TestCase):
         so = SignalObservation(displacement_threshold=3.0)
         
         # Scenario 1: Not enough data
-        snap_empty = MarketSnapshot(current_price=100, current_atr=0.0, closes=[], volumes=[], is_new_bar=False)
+        snap_empty = MarketSnapshot(current_price=100, current_atr=0.0, closes=[], opens=[], volumes=[], is_new_bar=False)
         self.assertFalse(so.detect_behavioral_event(snap_empty))
         
         # Scenario 2: No displacement
-        snap_normal = MarketSnapshot(current_price=100, current_atr=2.0, closes=[99.0, 99.5], volumes=[], is_new_bar=False)
+        snap_normal = MarketSnapshot(current_price=100, current_atr=2.0, closes=[99.0, 99.5], opens=[98, 99], volumes=[], is_new_bar=False)
         self.assertFalse(so.detect_behavioral_event(snap_normal))
         
         # Scenario 3: Bullish displacement (3.0 * 2.0 = 6.0) -> current_price >= 99.5 + 6.0 = 105.5
-        snap_bull = MarketSnapshot(current_price=105.5, current_atr=2.0, closes=[99.0, 99.5], volumes=[], is_new_bar=False)
+        snap_bull = MarketSnapshot(current_price=105.5, current_atr=2.0, closes=[99.0, 99.5], opens=[98, 99], volumes=[], is_new_bar=False)
         self.assertTrue(so.detect_behavioral_event(snap_bull))
         
         # Scenario 4: Bearish displacement (3.0 * 2.0 = 6.0) -> current_price <= 99.5 - 6.0 = 93.5
-        snap_bear = MarketSnapshot(current_price=93.0, current_atr=2.0, closes=[99.0, 99.5], volumes=[], is_new_bar=False)
+        snap_bear = MarketSnapshot(current_price=93.0, current_atr=2.0, closes=[99.0, 99.5], opens=[98, 99], volumes=[], is_new_bar=False)
         self.assertTrue(so.detect_behavioral_event(snap_bear))
 
 if __name__ == '__main__':

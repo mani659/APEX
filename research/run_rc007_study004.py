@@ -28,6 +28,7 @@ def run_study():
     high_col = [c for c in df.columns if 'high' in c.lower()][0]
     low_col  = [c for c in df.columns if 'low' in c.lower()][0]
     close_col= [c for c in df.columns if 'close' in c.lower()][0]
+    volume_col = [c for c in df.columns if 'volume' in c.lower()][0]
     
     # Optional: we can use a small slice of data if it's too big, 
     # but the study implies running the dataset. 
@@ -47,10 +48,10 @@ def run_study():
         h = getattr(row, high_col)
         l = getattr(row, low_col)
         c = getattr(row, close_col)
+        v = getattr(row, volume_col)
         t = str(getattr(row, time_col))
         
-        # we can just pass volume=1 since it's not primarily used for signal detection in this basic mock
-        runtime.on_bar(o, h, l, c, 1, ts=t)
+        runtime.on_bar(o, h, l, c, v, ts=t)
         
         if idx > 0 and idx % 100000 == 0:
             print(f"Processed {idx} / {len(df)} bars...")

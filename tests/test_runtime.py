@@ -5,13 +5,13 @@ import tempfile
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from engine.runtime import ApexRuntime
-from engine.logger import EngineLogger
+from engine.telemetry import TelemetryLayer
 
 class TestApexRuntime(unittest.TestCase):
     def test_full_cycle(self):
         with tempfile.TemporaryDirectory() as tmpdirname:
-            logger = EngineLogger(log_dir=tmpdirname)
-            runtime = ApexRuntime(logger=logger)
+            telemetry = TelemetryLayer(log_dir=tmpdirname)
+            runtime = ApexRuntime(telemetry=telemetry)
             
             for _ in range(14):
                 runtime.on_bar(100, 101, 99, 100, 100)
@@ -28,10 +28,8 @@ class TestApexRuntime(unittest.TestCase):
             
             self.assertEqual(len(runtime.active_positions), 0)
             
-            # Cleanup handlers
-            for h in logger.logger.handlers[:]:
-                h.close()
-                logger.logger.removeHandler(h)
+            # Cleanup handles
+            telemetry.close()
 
 if __name__ == '__main__':
     unittest.main()

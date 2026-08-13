@@ -108,7 +108,8 @@ class ApexRuntime:
             )
             
         # 3. Permission
-        perm_state = self.exec_perm.confirm_stabilization(snapshot, ParticipationState.LOW_ENTROPY)
+        current_part_state = self.context_interp.evaluate_participation_state(snapshot, True)
+        perm_state = self.exec_perm.confirm_stabilization(snapshot, current_part_state)
         if perm_state == PermissionState.REJECT:
             self.telemetry.emit(
                 trace_id=self.current_trace_id, ts=ts, symbol=self.symbol,
@@ -237,7 +238,8 @@ class ApexRuntime:
             )
             
         # 3. Permission
-        perm_state = self.exec_perm.confirm_stabilization(snapshot, ParticipationState.LOW_ENTROPY)
+        current_part_state = self.context_interp.evaluate_participation_state(snapshot, True)
+        perm_state = self.exec_perm.confirm_stabilization(snapshot, current_part_state)
         if perm_state == PermissionState.REJECT:
             self.telemetry.emit(
                 trace_id=self.current_trace_id, ts=ts, symbol=self.symbol,

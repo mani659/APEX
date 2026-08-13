@@ -19,7 +19,7 @@ class ExecutionPermission:
             return PermissionState.WAIT
             
         if snapshot.is_new_bar:
-            current_bar_body = abs(snapshot.closes[-1] - snapshot.closes[-2])
+            current_bar_body = abs(snapshot.opens[-1] - snapshot.closes[-1])
         else:
             current_bar_body = abs(snapshot.current_price - snapshot.closes[-1])
             
