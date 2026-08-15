@@ -1,31 +1,37 @@
 # RC013 Cleanup Manifest
 
-## 1. Audit Summary
-A repository audit was conducted to finalize the RC013 campaign branch. The objective was to ensure only files with permanent scientific and reproducibility value were retained.
+## Execution Date
+2026-08-15
 
-## 2. Files Preserved
-The following files were preserved because they constitute the permanent scientific history, reproducibility mechanisms, and canonical execution paths for RC013:
+## Campaign Status
+CLOSED - STRUCTURAL PRIMITIVE VALIDATED, MONETIZATION ARCHITECTURE REJECTED
 
-- `docs/RC013_CHARTER.md`
-- `docs/RC013_FREEZE.md`
-- `reports/RC013_Study_000_Data_Qualification.md`
-- `reports/RC013_Study_001_Session_Mechanics_Analysis.md`
-- `reports/RC013_Study_001_Session_Mechanics_Dataset.parquet`
-- `reports/RC013_Study_002_Session_Validation.md`
-- `reports/RC013_Study_002_Session_Validation_Dataset.parquet`
-- `reports/RC013_Study_003_Session_Path_Analysis.md`
-- `reports/RC013_Study_003_Session_Path_Dataset.parquet`
-- `reports/RC013_Study_004_Session_Breakout_Analysis.md`
-- `reports/RC013_Study_004_Session_Breakout_Dataset.parquet`
-- `scripts/rc013_study_001.py`
-- `scripts/rc013_study_002.py`
-- `scripts/rc013_study_003.py`
-- `scripts/rc013_study_004.py`
+## Objective
+Retain only files that are useful for permanent scientific history, reproducibility, future decision-making, and canonical execution. Remove intermediate discovery scripts to prevent parameter hunting and optimization drift.
 
-## 3. Files Removed
-**None.** 
-Because the AI agent executed RC013 with strict discipline, no debug dumps, scratch notebooks, temporary caches, or duplicate artifacts were generated during the campaign. The repository state for RC013 remains perfectly clean and requires no file deletions.
+## Files Removed
 
-## 4. Documentation Updates
-- `docs/RC013_FREEZE.md` created to formally freeze the branch.
-- `docs/Apex_Knowledge_Base.md` successfully updated to permanently record findings R018-R021 and log the campaign studies in the Duplicate Prevention register.
+| File | Type | Reason for Removal |
+| :--- | :--- | :--- |
+| `scripts/rc013_study_001.py` | Python Script | Intermediate discovery/exploration script. Replaced by final datasets and Study 004 execution architecture. |
+| `scripts/rc013_study_002.py` | Python Script | Intermediate validation script. Replaced by final datasets and Study 004 execution architecture. |
+| `scripts/rc013_study_003.py` | Python Script | Intermediate path analysis script. Replaced by final datasets and Study 004 execution architecture. |
+
+## Files Preserved
+
+| File | Type | Reason for Preservation |
+| :--- | :--- | :--- |
+| `reports/RC013_Study_000_Data_Qualification.md` | Report | Historical QA evidence. |
+| `reports/RC013_Study_001_Session_Mechanics_Analysis.md` | Report | Core discovery conclusions. |
+| `reports/RC013_Study_002_Session_Validation.md` | Report | Independent validation evidence. |
+| `reports/RC013_Study_003_Session_Path_Analysis.md` | Report | Path geometry structural evidence. |
+| `reports/RC013_Study_004_Session_Breakout_Analysis.md` | Report | Failed monetization architecture evidence. |
+| `reports/RC013_Study_001_Session_Mechanics_Dataset.parquet` | Dataset | Essential for statistical reproducibility. |
+| `reports/RC013_Study_002_Session_Validation_Dataset.parquet` | Dataset | Essential for statistical reproducibility. |
+| `reports/RC013_Study_003_Session_Path_Dataset.parquet` | Dataset | Essential for statistical reproducibility. |
+| `reports/RC013_Study_004_Session_Breakout_Dataset.parquet` | Dataset | Essential for statistical reproducibility. |
+| `scripts/rc013_study_004.py` | Python Script | Final canonical execution script representing the tested (and rejected) breakout architecture. |
+| `docs/RC013_CHARTER.md` | Document | Original campaign scope and hypotheses. |
+| `docs/RC013_FREEZE.md` | Document | Final structural knowledge preservation and closure order. |
+| `docs/Apex_Knowledge_Base.md` | Document | Central repository for project-level confirmed knowledge and rejected ideas. |
+| `reports/APEX_POST_RC013_STRATEGY_REVIEW.md` | Report | Post-campaign project strategy guidance. |

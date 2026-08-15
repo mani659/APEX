@@ -134,6 +134,18 @@ This document serves as the permanent historical record for all pre-Apex and Ape
 - **Reason For Next Study**: The behavioral discovery campaign is permanently closed.
 - **Frozen?**: Campaign CLOSED - FROZEN NEGATIVE.
 
+### RC013: Session / Calendar Structural Mechanics Discovery
+- **Research Question**: Do deterministic session transitions create a robust, direction-neutral structural change in future EURUSD movement distribution? Does a raw pre-session-range breakout architecture generate positive expectancy?
+- **Evidence**: RC013 Studies 001-004.
+- **Outcome**: Structural Primitive Validated / Monetization Architecture Rejected.
+- **Knowledge Gained**: 
+  - Deterministic session transitions (e.g. `ASIA_TO_LONDON`, `LONDON_NY_OVERLAP`) materially alter future movement distributions.
+  - The effects are approximately direction-neutral and survived independent chronological validation.
+  - Session expansion exhibits higher movement with directionally efficient path geometry (TYPE A) relative to the HIGH_VOL chop regime.
+- **Knowledge Removed**: The belief that a raw immediate pre-session-range breakout architecture generates positive expectancy or can be rescued by simply lowering transaction costs.
+- **Reason For Next Study**: The campaign is closed. The validated session primitive must be treated as information, not as a validated trading strategy. The breakout architecture is rejected.
+- **Frozen?**: Campaign CLOSED.
+
 ---
 
 ## 2. Confirmed Knowledge
@@ -145,6 +157,8 @@ This document serves as the permanent historical record for all pre-Apex and Ape
 | **K003** | Extreme short-term behavioral displacement followed by immediate recoil stabilization is a persistent cross-market phenomenon. | Quant Research Phase 6, 11 | High | Confirmed |
 | **K004** | Behavioral Exhaustion Events (3.0x ATR) do not have a universal outcome; they naturally fragment into a predictable Taxonomy of responses. | RC002 Study 004 | High | Confirmed |
 | **K005** | Low market participation (volume vacuums) provides structural information that reduces Behavioral Response entropy. | RC002 Study 007 | High | Confirmed |
+| **K006** | Deterministic session transitions materially alter EURUSD future movement distributions, acting as validated structural primitives independent of directional prediction. | RC013 Study 001, 002 | High | Confirmed |
+| **K007** | Session expansion exhibits higher movement with directionally efficient path geometry relative to the HIGH_VOL chop regime. | RC013 Study 003 | High | Confirmed |
 
 ---
 
@@ -169,10 +183,8 @@ This document serves as the permanent historical record for all pre-Apex and Ape
 | **R015** | M1 state sequences (N=3, N=5) add meaningful information beyond the terminal state. | RC009 Study 003 | Confirmed | Sequences converged back to terminal state baselines. |
 | **R016** | Cross-market synchronization (XAUUSD, BTCUSD, etc.) provides incremental M1 edge. | RC009 Study 004 | Confirmed | No contemporaneous or short-lag relationships met criteria. |
 | **R017** | H4 volatility/direction regimes materially alter expected M1 state outcomes. | RC009 Study 006 | Confirmed | H4 regime provided no meaningful incremental structure. |
-| **R018** | Deterministic session transitions (e.g. ASIA_TO_LONDON, LONDON_NY_OVERLAP) materially alter EURUSD future movement distributions independent of prediction. | RC013 Study 001, 002 | Confirmed | Validated structural primitives, survived chronological OOS. |
-| **R019** | Session expansion exhibits higher movement with directionally efficient path geometry relative to the HIGH_VOL chop regime. | RC013 Study 003 | Confirmed | Classified as TYPE A Directionally Efficient Expansion. |
-| **R020** | The raw immediate pre-session-range breakout architecture generates positive expectancy. | RC013 Study 004 | Rejected | Architecture produced negative expectancy and severe tail-losses. |
-| **R021** | Transaction-cost reduction alone rescues the raw breakout architecture. | RC013 Study 004 | Rejected | Expectancy remained negative even at 0.5 pip transaction costs. |
+| **R018** | The raw immediate pre-session-range breakout architecture generates positive expectancy. | RC013 Study 004 | Confirmed | Architecture produced negative expectancy and severe tail-losses. |
+| **R019** | Transaction-cost reduction alone rescues the raw breakout architecture. | RC013 Study 004 | Confirmed | Expectancy remained negative even at 0.5 pip transaction costs. |
 
 ---
 
