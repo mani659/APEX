@@ -1,0 +1,4 @@
+Source,Level,Provider,Dataset,Earliest_History,Option_Premium,Implied_Vol_Supplied,Greeks_Supplied,Cost_Estimate,Complexity,Qualification_Status
+CME CVOL,LEVEL 1,CME DataMine,EUR/USD CVOL,Historical (EOD),No,Yes (30-day index),No,Contact Sales / Low,Low,QUALIFIED - LEVEL 1
+CME Settlements,LEVEL 2,CME DataMine,Euro FX Options Settlements,Historical,Yes (EOD),Yes,No,Contact Sales,Low,QUALIFIED - LEVEL 2
+CME Globex Intraday,LEVEL 3,Databento,CME MDP 3.0 (GLBX.ALL),June 2010,Yes (Ticks/MBO),No (Requires Model),No (Requires Model),Pay-as-you-go (per GB),High,CONDITIONALLY QUALIFIED
