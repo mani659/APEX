@@ -1,0 +1,7 @@
+raw_root,asset,group,example_raw_symbol,instrument_class,security_type,inferred_parent_symbol,confidence,evidence
+EUU,EUU,XE,EUUZ4 P1045,P,OOF,EUU.OPT,CONFIRMED,Definition endpoint returned asset=EUU and security_type=OOF for EUU.OPT
+1EU,1EU,XE,1EUG4 P1122,P,OOF,1EU.OPT,CONFIRMED,Definition endpoint returned asset=1EU and security_type=OOF for 1EU.OPT
+2EU,2EU,XE,2EUF4 C1070,C,OOF,2EU.OPT,CONFIRMED,Definition endpoint returned asset=2EU and security_type=OOF for 2EU.OPT
+3EU,3EU,XE,3EUF4 C1065,C,OOF,3EU.OPT,CONFIRMED,Definition endpoint returned asset=3EU and security_type=OOF for 3EU.OPT
+4EU,4EU,XE,4EUF4 P1085,P,OOF,4EU.OPT,CONFIRMED,Definition endpoint returned asset=4EU and security_type=OOF for 4EU.OPT
+5EU,5EU,XE,5EUK4 C1115,C,OOF,5EU.OPT,CONFIRMED,Definition endpoint returned asset=5EU and security_type=OOF for 5EU.OPT
