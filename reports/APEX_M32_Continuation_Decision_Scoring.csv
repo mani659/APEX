@@ -1,0 +1,4 @@
+Option,Description,Evidence_Strength,Novel_Research_Value,Cost_to_Execute,Time_to_Execute,Expected_Economic_Value,Risk_of_Curve_Fitting,Reversibility,Cross_Instrument_Portability,Methodology_Rigor,Scientific_Integrity,TOTAL,Rank,Recommendation
+A,STOP — Declare HIGH_VOL Branch Stalled,9,2,10,10,3,10,10,5,10,8,77,1,PRIMARY
+B,CONTINUE — Dynamic Boundary / Path-Dependent Execution Simulation,8,7,6,5,7,4,8,6,5,7,63,2,RUNNER-UP
+C,CONTINUE — Alternative Monetization (Options/Straddle Path),6,6,3,3,8,5,6,7,6,7,57,3,BACKUP

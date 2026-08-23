@@ -1,0 +1,15 @@
+{
+    "sample_size": 396,
+    "baseline_breach_count": 395,
+    "baseline_breach_prob": 0.9974747474747475,
+    "lpm_results": {
+        "intercept": 0.9981345590296915,
+        "beta": 0.054024858118242876,
+        "hac_se": 0.045732013409918754,
+        "hac_maxlags": 48,
+        "t_stat": 1.1813356572340525,
+        "p_value": 0.23746940754642498,
+        "ci_lower": -0.03560824110570066,
+        "ci_upper": 0.14365795734218642
+    }
+}

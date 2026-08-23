@@ -1,0 +1,117 @@
+{
+  "schema_version": "2.0",
+  "generated_at": "2026-08-23",
+  "repository": {
+    "name": "APEX",
+    "path": "D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex",
+    "branch": "main",
+    "security_status": {
+      "credentials_scrubbed": true,
+      "remote_untouched": true,
+      "gitignore_issues": [
+        "DATABENTO_API_KEY.md is untracked but not ignored",
+        "scratch/ is untracked but not ignored",
+        "data/databento/ is untracked but not ignored"
+      ]
+    }
+  },
+  "campaigns": {
+    "RC012": { "status": "CLOSED", "result": "HIGH_VOL distributional primitive validated." },
+    "RC013": { "status": "CLOSED", "result": "Session-transition primitive validated; raw breakout monetization rejected." },
+    "RC014": { "status": "CLOSED", "result": "Cross-asset transmission hypothesis rejected for tested relationships." },
+    "RC015": { 
+      "status": "CLOSED - LISTED-OPTION PATH METHOD INFEASIBLE", 
+      "economic_hypothesis": "UNTESTED",
+      "reason": "No tested structurally justified observation design satisfied the established liquidity requirements on the acquired CME EUR/USD listed-option dataset."
+    }
+  },
+  "rc015_final_state": {
+    "frozen_events": 222,
+    "final_option_universe_size": 699,
+    "calls": 349,
+    "puts": 350,
+    "futures_ids": 19,
+    "predetermined_m15_slots": 21312,
+    "stage_2_bbo_acquisition": "COMPLETE",
+    "stage_2_recovery": "COMPLETE",
+    "acquisition_debit": "$1.2570 + $0.0044 recovery",
+    "missing_final_instruments": 0,
+    "missing_event_windows": 0,
+    "lookahead": 0
+  },
+  "milestone_registry": {
+    "M00": { "name": "Project State Reconstruction", "status": "COMPLETE" },
+    "M01": { "name": "Git / Security Audit & Remediation", "status": "COMPLETE / VERIFY" },
+    "M02": { "name": "RC007–RC014 Research Freeze Audit", "status": "COMPLETE" },
+    "M03": { "name": "RC015 Historical Mapping", "status": "COMPLETE" },
+    "M04": { "name": "RC015 Contemporaneous Moneyness", "status": "COMPLETE" },
+    "M05": { "name": "RC015 Stage-2 BBO Acquisition", "status": "COMPLETE" },
+    "M06": { "name": "RC015 BBO Recovery & Integrity", "status": "COMPLETE" },
+    "M07": { "name": "RC015 Quote-Age / Observability Audit", "status": "COMPLETE" },
+    "M08": { "name": "RC015 Observation-Design Discovery", "status": "COMPLETE" },
+    "M09": { "name": "RC015 Final Adjudication", "status": "COMPLETE" },
+    "M10": { "name": "APEX Next-Research Direction Discovery", "status": "NEXT" },
+    "M11": { "name": "Candidate Research Methodology Design", "status": "SUPERSEDED" },
+    "M11-R2": { "name": "Methodology Reconstruction & Re-Freeze", "status": "COMPLETE" },
+    "M12-R2": { "name": "Pre-Economic Data Re-Validation", "status": "COMPLETE (CONTROL REVIEWED)" },
+    "M11-Backup": { "name": "Unconditional Methodology Design", "status": "COMPLETE" },
+    "M12-Backup": { "name": "Unconditional Data Validation", "status": "COMPLETE (CONTROL REVIEWED)" },
+    "M13": { "name": "Economic Experiment", "status": "COMPLETE" },
+    "M14": { "name": "Scientific Adjudication", "status": "COMPLETE" },
+    "M15": { "name": "Conditional Predictability Methodology", "status": "COMPLETE" },
+    "M16": { "name": "Conditional Predictability Validation", "status": "COMPLETE" },
+    "M16-CR": { "name": "Predictor Methodology Amendment", "status": "COMPLETE" },
+    "M17": { "name": "Empirical Predictability Experiment", "status": "COMPLETE (BLOCKED)" },
+    "M17-CR": { "name": "Software Methodology Amendment", "status": "COMPLETE" },
+    "M17-R2": { "name": "Empirical Predictability Execution", "status": "COMPLETE" },
+    "M18": { "name": "Predictive Signal Scientific Adjudication", "status": "COMPLETE" },
+    "M19": { "name": "Economic Translation Methodology Design", "status": "COMPLETE" },
+    "M20": { "name": "Pre-Economic Data Validation", "status": "COMPLETE (BLOCKED)" },
+    "M20-CR": { "name": "Methodology Completeness Amendment", "status": "COMPLETE" },
+    "M21": { "name": "Economic Translation Empirical Execution", "status": "COMPLETE" },
+    "M21-CR": { "name": "Translation Result Integrity Review", "status": "COMPLETE" },
+    "M22": { "name": "Price Distribution Translation Methodology", "status": "COMPLETE" },
+    "M23": { "name": "Pre-Directional Data Validation", "status": "COMPLETE" },
+    "M24": { "name": "Directional Translation Empirical Execution", "status": "COMPLETE" },
+    "M25": { "name": "Extremum Boundary Translation Methodology", "status": "COMPLETE" },
+    "M26": { "name": "Pre-Extremum Data Validation", "status": "COMPLETE" },
+    "M27": { "name": "Extremum Translation Empirical Execution", "status": "COMPLETE" },
+    "M28": { "name": "Signal Monetization Concept Initialization", "status": "COMPLETE" },
+    "M29": { "name": "Dispersion Boundary Economic Methodology Design", "status": "COMPLETE" },
+    "M30": { "name": "Pre-Boundary Data Validation", "status": "COMPLETE" },
+    "M31": { "name": "Dispersion Boundary Empirical Execution", "status": "COMPLETE" },
+    "M32": { "name": "HIGH_VOL Branch Adjudication & Stopping Decision", "status": "COMPLETE" }
+  },
+  "current_milestone": "M32 (STOPPED — HIGH_VOL Branch Stalled)",
+  "blocker": null,
+  "stopping_decision": {
+    "branch": "HIGH_VOL",
+    "status": "STALLED",
+    "primary_recommendation": "STOP (Option A, score=77/100)",
+    "runner_up": "CONTINUE with dynamic boundary simulation (Option B, score=63/100)",
+    "backup": "CONTINUE with options-based monetization (Option C, score=57/100)",
+    "mandatory_stop": true,
+    "m31_saturation_audit": {
+      "breach_rate": "395/396 = 99.75%",
+      "p_value": 0.2375,
+      "verdict": "EXTREME BASE-RATE SATURATION",
+      "relationship_to_m27": "CONSISTENT — continuous relationship real; static threshold too narrow"
+    },
+    "evidence_ledger": {
+      "established": ["RC012", "M13/M14", "M17-R2", "M21", "M27"],
+      "not_established": ["M24", "M31"],
+      "rejected": ["RC012 Studies 007-011"]
+    }
+  },
+  "obsolete_instructions": [
+    "recover the 162 events",
+    "choose between Option A and Option B",
+    "continue with only the original 60-event sample",
+    "6E.OPT is the correct option parent",
+    "daily-close moneyness is sufficient",
+    "RC015 Study 007 is waiting for BBO purchase",
+    "RC015 has an unresolved 162-event mapping problem",
+    "M32 should dynamically map the APEX risk score to dispersion parameters",
+    "M32 must pivot to defining how to dynamically capture this envelope"
+  ]
+}
