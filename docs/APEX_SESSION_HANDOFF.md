@@ -92,6 +92,8 @@ The following previous instructions from old handoffs are NO LONGER CURRENT and 
 | M30 | Pre-Boundary Data Validation            | COMPLETE         | Audit M29 methodology integrity before execution        |
 | M31 | Dispersion Boundary Empirical Execution | COMPLETE         | Execute the frozen M29 boundary test                    |
 | M32 | HIGH_VOL Branch Adjudication & Stopping Decision | COMPLETE | Adjudicate HIGH_VOL branch; M31 saturation audit; STOP |
+| M33 | HIGH_VOL Branch Control Audit & Final Continuation Decision | COMPLETE | Final control adjudication; dynamic-translation feasibility; CLOSE |
+| M34 | HIGH_VOL Branch Final Scientific Closure | COMPLETE | Final closure; evidence chain preserved; HIGH_VOL_STATE archived |
 
 *(Note: Future PLANNED milestones are placeholders, not committed methodology).*
 
@@ -123,38 +125,30 @@ At the end of every major milestone, the execution session must:
 4. Record the exact next authorized milestone.
 
 ## 8. Current Next Milestone
-**NONE — HIGH_VOL Branch Declared STALLED (M32 Complete).**
+**M35 — APEX Next-Research Direction Discovery**
+Status: `PLANNED — NOT STARTED`.
 
-The HIGH_VOL volatility-prediction branch has reached its natural scientific conclusion:
-- Physical relationship fully mapped (M21 RV translation, M24 directional failure, M27 extremum translation).
-- First economic threshold test (M31) failed due to extreme base-rate saturation (99.75% breach rate, p=0.2375).
-- No further frozen-methodology experiments within the current M29 framework can resolve the saturation problem.
+The HIGH_VOL branch is formally **CLOSED** as of M34.
 
-**Primary recommendation**: STOP (Option A, score=77/100).
-**Runner-up**: CONTINUE with dynamic boundary simulation (Option B, score=63/100) — requires new M33+ methodology.
-**Backup**: CONTINUE with options-based monetization (Option C, score=57/100) — requires new data and methodology.
+**Final status**: `CLOSED — SCIENTIFICALLY INFORMATIVE, ECONOMIC IMPLEMENTATION UNRESOLVED`
 
-Any continuation beyond M32 requires explicit user override and a new frozen methodology.
+The validated HIGH_VOL_STATE primitive is preserved for future APEX research. Any future use of HIGH_VOL must be through a newly authorized APEX research direction.
 
 ## 9. Next Session Re-Entry Point
 
-Research is intentionally stopped after M32.
+The HIGH_VOL branch is formally **CLOSED** (M34 complete).
 
-The HIGH_VOL branch is currently classified as **STALLED**.
+**No M35 is authorized.**
 
-**Primary M32 decision**: STOP / CLOSE HIGH_VOL BRANCH.
-
-**No M33 is authorized.**
-
-Tomorrow's control session must first decide whether to:
-1. Accept the M32 stopping decision and close the HIGH_VOL branch permanently;
-2. Explicitly override the stop and authorize a new methodology (Option B or C);
-3. Return to broader APEX research-direction discovery (M10).
+Tomorrow's control session must decide whether to:
+1. Authorize M35 (APEX Next-Research Direction Discovery);
+2. Pursue a different APEX research direction;
+3. Pause the APEX programme.
 
 **Do not begin additional research before that decision.**
 
 Do not add any new research hypothesis.
 
-Do not automatically begin M33. A new milestone requires explicit control-session/user authorization.
+Do not automatically begin M35. A new milestone requires explicit control-session/user authorization.
 
-Do not rewrite historical M13/M17/M21/M24/M27 conclusions.
+Do not rewrite historical M13/M17/M21/M24/M27/M34 conclusions.

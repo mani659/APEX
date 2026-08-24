@@ -80,28 +80,53 @@
     "M29": { "name": "Dispersion Boundary Economic Methodology Design", "status": "COMPLETE" },
     "M30": { "name": "Pre-Boundary Data Validation", "status": "COMPLETE" },
     "M31": { "name": "Dispersion Boundary Empirical Execution", "status": "COMPLETE" },
-    "M32": { "name": "HIGH_VOL Branch Adjudication & Stopping Decision", "status": "COMPLETE" }
+    "M32": { "name": "HIGH_VOL Branch Adjudication & Stopping Decision", "status": "COMPLETE" },
+    "M33": { "name": "HIGH_VOL Branch Control Audit & Final Continuation Decision", "status": "COMPLETE" },
+    "M34": { "name": "HIGH_VOL Branch Final Scientific Closure", "status": "COMPLETE" }
   },
-  "current_milestone": "M32 (STOPPED — HIGH_VOL Branch Stalled)",
+  "current_milestone": "M34 (CLOSED — HIGH_VOL Branch Formally Closed)",
   "blocker": null,
+  "high_vol_closure": {
+    "branch_status": "CLOSED",
+    "closure_classification": "SCIENTIFICALLY INFORMATIVE, ECONOMIC IMPLEMENTATION UNRESOLVED",
+    "closure_rationale": "The HIGH_VOL branch produced substantial validated scientific information. The remaining path from continuous excursion prediction to economically actionable implementation requires additional parameterization that cannot currently be specified with sufficient ex-ante defensibility.",
+    "validated_findings": [
+      "HIGH_VOL is a structural distributional primitive (RC012)",
+      "HIGH_VOL persistence is non-memoryless (M13/M14, p<0.0001)",
+      "Onset features predict future persistence (M17-R2, C-index=0.6656)",
+      "Predicted persistence scales forward RV (M21, p=0.0032)",
+      "Predicted persistence does NOT predict direction (M24, p=0.6418)",
+      "Predicted persistence scales excursion envelope (M27, p=7.5e-05)",
+      "Expansion is near-symmetric (M27, ratio=0.9218)"
+    ],
+    "negative_findings": [
+      "Session-transition branch infeasible (n=8)",
+      "No linear directional translation (M24)",
+      "Static 1.0xRV20 boundary saturated (M31, 99.75%)",
+      "Spot monetization failed (RC012 Studies 007-011)"
+    ],
+    "reusable_knowledge": [
+      "HIGH_VOL_STATE validated market-state primitive",
+      "Canonical HIGH_VOL episode ledger (794 episodes)",
+      "M17-R2 walk-forward Cox PH methodology",
+      "M21/M24/M27 frozen translation results"
+    ],
+    "methodological_lessons": [
+      "Do not relax event definitions to inflate sample size",
+      "Methodology must be repaired before economic testing",
+      "Statistical calibration must match data structure",
+      "Feature count is not scientific value",
+      "Continuous relationships do not automatically translate into binary thresholds",
+      "APEX stopping principle: continue only when next question is materially different"
+    ]
+  },
   "stopping_decision": {
     "branch": "HIGH_VOL",
-    "status": "STALLED",
-    "primary_recommendation": "STOP (Option A, score=77/100)",
-    "runner_up": "CONTINUE with dynamic boundary simulation (Option B, score=63/100)",
-    "backup": "CONTINUE with options-based monetization (Option C, score=57/100)",
+    "status": "CLOSED",
+    "closure_milestone": "M34",
+    "primary_decision": "FORMALLY CLOSE HIGH_VOL BRANCH (Option A, score=43/50)",
     "mandatory_stop": true,
-    "m31_saturation_audit": {
-      "breach_rate": "395/396 = 99.75%",
-      "p_value": 0.2375,
-      "verdict": "EXTREME BASE-RATE SATURATION",
-      "relationship_to_m27": "CONSISTENT — continuous relationship real; static threshold too narrow"
-    },
-    "evidence_ledger": {
-      "established": ["RC012", "M13/M14", "M17-R2", "M21", "M27"],
-      "not_established": ["M24", "M31"],
-      "rejected": ["RC012 Studies 007-011"]
-    }
+    "next_milestone": "M35 — APEX Next-Research Direction Discovery (PLANNED — NOT STARTED)"
   },
   "obsolete_instructions": [
     "recover the 162 events",
@@ -112,6 +137,10 @@
     "RC015 Study 007 is waiting for BBO purchase",
     "RC015 has an unresolved 162-event mapping problem",
     "M32 should dynamically map the APEX risk score to dispersion parameters",
-    "M32 must pivot to defining how to dynamically capture this envelope"
+    "M32 must pivot to defining how to dynamically capture this envelope",
+    "M33 should design a dynamic boundary methodology",
+    "Dynamic translation is scientifically justified",
+    "HIGH_VOL branch should continue",
+    "M34 should be an experiment"
   ]
 }
