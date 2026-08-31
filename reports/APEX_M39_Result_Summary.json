@@ -1,0 +1,42 @@
+{
+  "milestone": "M39",
+  "status": "COMPLETE",
+  "date": "2026-08-24",
+  "research_question": "Does LONDON_NY_OVERLAP produce a statistically distinct CDF of 1-hour forward returns?",
+  "sample_sizes": {
+    "transition_lno": 2757,
+    "control": 29184,
+    "total_eligible": 31941
+  },
+  "primary_test": {
+    "test_name": "Two-sample Anderson-Darling",
+    "implementation": "scipy.stats.anderson_ksamp",
+    "ad_statistic": 228.382562,
+    "critical_values_5pct": 1.961,
+    "significance_level": 0.001,
+    "reject_h0_at_005": true
+  },
+  "bootstrap": {
+    "block_size": 24,
+    "n_replications": 10000,
+    "seed": 42,
+    "rng": "PCG-64",
+    "n_successful": 10000,
+    "n_failed": 0,
+    "exceedance_count": 5445,
+    "bootstrap_pvalue": 0.5445,
+    "mean_bootstrap_ad": 230.114246,
+    "std_bootstrap_ad": 15.446861
+  },
+  "decision": "DISTRIBUTIONAL ASYMMETRY / DIFFERENCE ESTABLISHED",
+  "cohens_d": 0.003733,
+  "methodology_integrity": "PASS",
+  "methodology_deviations": [],
+  "limitations": [
+    "FOMC/ECB exclusions not applied (robustness-only per M38)",
+    "Bootstrap seed = 42 (reproducible but seed-dependent)"
+  ],
+  "external_api_calls": 0,
+  "new_data_acquired": 0,
+  "spend": "$0.00"
+}

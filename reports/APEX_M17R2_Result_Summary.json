@@ -1,0 +1,12 @@
+{
+    "total_events": 794,
+    "training_episodes_initial": 397,
+    "oos_predictions": 397,
+    "successful_fits": 397,
+    "fit_failures": 0,
+    "comparable_pairs": 78606,
+    "conditional_c_index": 0.6656074210298571,
+    "baseline_c_index": 0.5,
+    "delta_c_index": 0.16560742102985715,
+    "sm_version": "0.14.6"
+}

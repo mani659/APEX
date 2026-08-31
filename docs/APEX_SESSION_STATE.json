@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-08-30",
   "repository": {
     "name": "APEX",
     "path": "D:\\Gold Scripts\\MQL5\\Ticks Data\\XAUUSD\\grid research\\apex",
@@ -16,11 +16,20 @@
     }
   },
   "campaigns": {
-    "RC012": { "status": "CLOSED", "result": "HIGH_VOL distributional primitive validated." },
-    "RC013": { "status": "CLOSED", "result": "Session-transition primitive validated; raw breakout monetization rejected." },
-    "RC014": { "status": "CLOSED", "result": "Cross-asset transmission hypothesis rejected for tested relationships." },
-    "RC015": { 
-      "status": "CLOSED - LISTED-OPTION PATH METHOD INFEASIBLE", 
+    "RC012": {
+      "status": "CLOSED",
+      "result": "HIGH_VOL distributional primitive validated."
+    },
+    "RC013": {
+      "status": "CLOSED",
+      "result": "Session-transition primitive validated; raw breakout monetization rejected."
+    },
+    "RC014": {
+      "status": "CLOSED",
+      "result": "Cross-asset transmission hypothesis rejected for tested relationships."
+    },
+    "RC015": {
+      "status": "CLOSED - LISTED-OPTION PATH METHOD INFEASIBLE",
       "economic_hypothesis": "UNTESTED",
       "reason": "No tested structurally justified observation design satisfied the established liquidity requirements on the acquired CME EUR/USD listed-option dataset."
     }
@@ -40,52 +49,401 @@
     "lookahead": 0
   },
   "milestone_registry": {
-    "M00": { "name": "Project State Reconstruction", "status": "COMPLETE" },
-    "M01": { "name": "Git / Security Audit & Remediation", "status": "COMPLETE / VERIFY" },
-    "M02": { "name": "RC007–RC014 Research Freeze Audit", "status": "COMPLETE" },
-    "M03": { "name": "RC015 Historical Mapping", "status": "COMPLETE" },
-    "M04": { "name": "RC015 Contemporaneous Moneyness", "status": "COMPLETE" },
-    "M05": { "name": "RC015 Stage-2 BBO Acquisition", "status": "COMPLETE" },
-    "M06": { "name": "RC015 BBO Recovery & Integrity", "status": "COMPLETE" },
-    "M07": { "name": "RC015 Quote-Age / Observability Audit", "status": "COMPLETE" },
-    "M08": { "name": "RC015 Observation-Design Discovery", "status": "COMPLETE" },
-    "M09": { "name": "RC015 Final Adjudication", "status": "COMPLETE" },
-    "M10": { "name": "APEX Next-Research Direction Discovery", "status": "NEXT" },
-    "M11": { "name": "Candidate Research Methodology Design", "status": "SUPERSEDED" },
-    "M11-R2": { "name": "Methodology Reconstruction & Re-Freeze", "status": "COMPLETE" },
-    "M12-R2": { "name": "Pre-Economic Data Re-Validation", "status": "COMPLETE (CONTROL REVIEWED)" },
-    "M11-Backup": { "name": "Unconditional Methodology Design", "status": "COMPLETE" },
-    "M12-Backup": { "name": "Unconditional Data Validation", "status": "COMPLETE (CONTROL REVIEWED)" },
-    "M13": { "name": "Economic Experiment", "status": "COMPLETE" },
-    "M14": { "name": "Scientific Adjudication", "status": "COMPLETE" },
-    "M15": { "name": "Conditional Predictability Methodology", "status": "COMPLETE" },
-    "M16": { "name": "Conditional Predictability Validation", "status": "COMPLETE" },
-    "M16-CR": { "name": "Predictor Methodology Amendment", "status": "COMPLETE" },
-    "M17": { "name": "Empirical Predictability Experiment", "status": "COMPLETE (BLOCKED)" },
-    "M17-CR": { "name": "Software Methodology Amendment", "status": "COMPLETE" },
-    "M17-R2": { "name": "Empirical Predictability Execution", "status": "COMPLETE" },
-    "M18": { "name": "Predictive Signal Scientific Adjudication", "status": "COMPLETE" },
-    "M19": { "name": "Economic Translation Methodology Design", "status": "COMPLETE" },
-    "M20": { "name": "Pre-Economic Data Validation", "status": "COMPLETE (BLOCKED)" },
-    "M20-CR": { "name": "Methodology Completeness Amendment", "status": "COMPLETE" },
-    "M21": { "name": "Economic Translation Empirical Execution", "status": "COMPLETE" },
-    "M21-CR": { "name": "Translation Result Integrity Review", "status": "COMPLETE" },
-    "M22": { "name": "Price Distribution Translation Methodology", "status": "COMPLETE" },
-    "M23": { "name": "Pre-Directional Data Validation", "status": "COMPLETE" },
-    "M24": { "name": "Directional Translation Empirical Execution", "status": "COMPLETE" },
-    "M25": { "name": "Extremum Boundary Translation Methodology", "status": "COMPLETE" },
-    "M26": { "name": "Pre-Extremum Data Validation", "status": "COMPLETE" },
-    "M27": { "name": "Extremum Translation Empirical Execution", "status": "COMPLETE" },
-    "M28": { "name": "Signal Monetization Concept Initialization", "status": "COMPLETE" },
-    "M29": { "name": "Dispersion Boundary Economic Methodology Design", "status": "COMPLETE" },
-    "M30": { "name": "Pre-Boundary Data Validation", "status": "COMPLETE" },
-    "M31": { "name": "Dispersion Boundary Empirical Execution", "status": "COMPLETE" },
-    "M32": { "name": "HIGH_VOL Branch Adjudication & Stopping Decision", "status": "COMPLETE" },
-    "M33": { "name": "HIGH_VOL Branch Control Audit & Final Continuation Decision", "status": "COMPLETE" },
-    "M34": { "name": "HIGH_VOL Branch Final Scientific Closure", "status": "COMPLETE" }
+    "M00": {
+      "name": "Project State Reconstruction",
+      "status": "COMPLETE"
+    },
+    "M01": {
+      "name": "Git / Security Audit & Remediation",
+      "status": "COMPLETE / VERIFY"
+    },
+    "M02": {
+      "name": "RC007–RC014 Research Freeze Audit",
+      "status": "COMPLETE"
+    },
+    "M03": {
+      "name": "RC015 Historical Mapping",
+      "status": "COMPLETE"
+    },
+    "M04": {
+      "name": "RC015 Contemporaneous Moneyness",
+      "status": "COMPLETE"
+    },
+    "M05": {
+      "name": "RC015 Stage-2 BBO Acquisition",
+      "status": "COMPLETE"
+    },
+    "M06": {
+      "name": "RC015 BBO Recovery & Integrity",
+      "status": "COMPLETE"
+    },
+    "M07": {
+      "name": "RC015 Quote-Age / Observability Audit",
+      "status": "COMPLETE"
+    },
+    "M08": {
+      "name": "RC015 Observation-Design Discovery",
+      "status": "COMPLETE"
+    },
+    "M09": {
+      "name": "RC015 Final Adjudication",
+      "status": "COMPLETE"
+    },
+    "M10": {
+      "name": "APEX Next-Research Direction Discovery",
+      "status": "NEXT"
+    },
+    "M11": {
+      "name": "Candidate Research Methodology Design",
+      "status": "SUPERSEDED"
+    },
+    "M11-R2": {
+      "name": "Methodology Reconstruction & Re-Freeze",
+      "status": "COMPLETE"
+    },
+    "M12-R2": {
+      "name": "Pre-Economic Data Re-Validation",
+      "status": "COMPLETE (CONTROL REVIEWED)"
+    },
+    "M11-Backup": {
+      "name": "Unconditional Methodology Design",
+      "status": "COMPLETE"
+    },
+    "M12-Backup": {
+      "name": "Unconditional Data Validation",
+      "status": "COMPLETE (CONTROL REVIEWED)"
+    },
+    "M13": {
+      "name": "Economic Experiment",
+      "status": "COMPLETE"
+    },
+    "M14": {
+      "name": "Scientific Adjudication",
+      "status": "COMPLETE"
+    },
+    "M15": {
+      "name": "Conditional Predictability Methodology",
+      "status": "COMPLETE"
+    },
+    "M16": {
+      "name": "Conditional Predictability Validation",
+      "status": "COMPLETE"
+    },
+    "M16-CR": {
+      "name": "Predictor Methodology Amendment",
+      "status": "COMPLETE"
+    },
+    "M17": {
+      "name": "Empirical Predictability Experiment",
+      "status": "COMPLETE (BLOCKED)"
+    },
+    "M17-CR": {
+      "name": "Software Methodology Amendment",
+      "status": "COMPLETE"
+    },
+    "M17-R2": {
+      "name": "Empirical Predictability Execution",
+      "status": "COMPLETE"
+    },
+    "M18": {
+      "name": "Predictive Signal Scientific Adjudication",
+      "status": "COMPLETE"
+    },
+    "M19": {
+      "name": "Economic Translation Methodology Design",
+      "status": "COMPLETE"
+    },
+    "M20": {
+      "name": "Pre-Economic Data Validation",
+      "status": "COMPLETE (BLOCKED)"
+    },
+    "M20-CR": {
+      "name": "Methodology Completeness Amendment",
+      "status": "COMPLETE"
+    },
+    "M21": {
+      "name": "Economic Translation Empirical Execution",
+      "status": "COMPLETE"
+    },
+    "M21-CR": {
+      "name": "Translation Result Integrity Review",
+      "status": "COMPLETE"
+    },
+    "M22": {
+      "name": "Price Distribution Translation Methodology",
+      "status": "COMPLETE"
+    },
+    "M23": {
+      "name": "Pre-Directional Data Validation",
+      "status": "COMPLETE"
+    },
+    "M24": {
+      "name": "Directional Translation Empirical Execution",
+      "status": "COMPLETE"
+    },
+    "M25": {
+      "name": "Extremum Boundary Translation Methodology",
+      "status": "COMPLETE"
+    },
+    "M26": {
+      "name": "Pre-Extremum Data Validation",
+      "status": "COMPLETE"
+    },
+    "M27": {
+      "name": "Extremum Translation Empirical Execution",
+      "status": "COMPLETE"
+    },
+    "M28": {
+      "name": "Signal Monetization Concept Initialization",
+      "status": "COMPLETE"
+    },
+    "M29": {
+      "name": "Dispersion Boundary Economic Methodology Design",
+      "status": "COMPLETE"
+    },
+    "M30": {
+      "name": "Pre-Boundary Data Validation",
+      "status": "COMPLETE"
+    },
+    "M31": {
+      "name": "Dispersion Boundary Empirical Execution",
+      "status": "COMPLETE"
+    },
+    "M32": {
+      "name": "HIGH_VOL Branch Adjudication & Stopping Decision",
+      "status": "COMPLETE"
+    },
+    "M33": {
+      "name": "HIGH_VOL Branch Control Audit & Final Continuation Decision",
+      "status": "COMPLETE"
+    },
+    "M34": {
+      "name": "HIGH_VOL Branch Final Scientific Closure",
+      "status": "COMPLETE"
+    },
+    "M35": {
+      "name": "Next Research Direction Discovery",
+      "status": "COMPLETE"
+    },
+    "M36": {
+      "name": "Candidate Research Methodology Design",
+      "status": "COMPLETE"
+    },
+    "M37": {
+      "name": "Pre-Execution Data Validation",
+      "status": "COMPLETE"
+    },
+    "M38": {
+      "name": "Methodology Completeness & Pre-Execution Amendment",
+      "status": "COMPLETE"
+    },
+    "M39": {
+      "name": "Session-Transition Distributional Asymmetry Empirical Execution",
+      "status": "COMPLETE — INVALIDATED BY M39-CR"
+    },
+    "M39-CR": {
+      "name": "Statistical Inference Integrity Review",
+      "status": "COMPLETE"
+    },
+    "M39-R2": {
+      "name": "Null Construction Design & Re-Freeze",
+      "status": "COMPLETE"
+    },
+    "M39-R2-exec": {
+      "name": "Corrected Permutation Test Execution",
+      "status": "COMPLETE"
+    },
+    "AUDIT-01": {
+      "name": "Independent Strategy Viability Audit",
+      "status": "COMPLETE"
+    },
+    "IC1": {
+      "name": "Instrument Feasibility & Economic Mechanism Discovery",
+      "status": "COMPLETE"
+    },
+    "IC2": {
+      "name": "Cross-Market Transferability & Crypto-Volatility Methodology Design",
+      "status": "COMPLETE"
+    },
+    "IC3": {
+      "name": "BTC Transferability Pre-Economic Validation",
+      "status": "COMPLETE"
+    },
+    "IC4": {
+      "name": "BTC IV/RV Observability & Maturity-Matching Audit",
+      "status": "COMPLETE"
+    },
+    "IC5": {
+      "name": "BTC IV/RV Economic Mechanism Methodology Design",
+      "status": "COMPLETE"
+    },
+    "IC6": {
+      "name": "BTC Options Data Acquisition & Validation",
+      "status": "COMPLETE — BLOCKED BY DATA"
+    },
+    "IC6-R2": {
+      "name": "BTC Options Data Validation (Deribit History API v2)",
+      "status": "COMPLETE — INVALIDATED BY IC6-R2-CR (TTE computation bug)"
+    },
+    "IC6-R2-CR": {
+      "name": "Observation Architecture & Economic-Estimand Integrity Review",
+      "status": "COMPLETE — REJECT IC6-R2"
+    },
+    "IC6-R3": {
+      "name": "Corrected BTC Options Eligibility Re-Validation",
+      "status": "COMPLETE — PASS (343 eligible)"
+    },
+    "IC6-R3-CR": {
+      "name": "Final BTC Options Eligibility & Economic-Observation Integrity Review",
+      "status": "COMPLETE — APPROVE IC7 WITH LIMITATION"
+    },
+    "IC7": {
+      "name": "BTC IV/RV Direction-Neutral Straddle Economic Experiment",
+      "status": "COMPLETE — NO ECONOMIC EDGE"
+    },
+    "IC7-CR": {
+      "name": "BTC Straddle Economic Result Integrity & Sample-Lineage Adjudication",
+      "status": "COMPLETE — IC7 VALID, LONG-STRADDLE REJECTED"
+    },
+    "IC8": {
+      "name": "Post-Straddle Economic Mechanism Discovery & Crypto-Options Stop Decision",
+      "status": "COMPLETE — CRYPTO-OPTIONS PATH CLOSED"
+    },
+    "IC9": {
+      "name": "Broader Economic Mechanism Discovery After Crypto-Options Closure",
+      "status": "COMPLETE — ECONOMIC DEVELOPMENT PAUSE"
+    },
+    "M40": {
+      "name": "Session-Transition Distributional Component Decomposition Methodology Design",
+      "status": "COMPLETE — M41 AUTHORIZED"
+    },
+    "M41": {
+      "name": "Session-Transition Distributional Component Experiment",
+      "status": "COMPLETE — SCALE COMPONENT IDENTIFIED (p=0.0001)"
+    },
+    "M42": {
+      "name": "Session-Transition Scale Economic Mechanism & Modular-Combination Adjudication",
+      "status": "COMPLETE — ECONOMIC MECHANISM NOT YET JUSTIFIED"
+    },
+    "M43": {
+      "name": "Research-Programme Continuation vs Scientific Pause Adjudication",
+      "status": "COMPLETE — APEX ECONOMIC DEVELOPMENT PAUSED"
+    },
+    "AR1": {
+      "name": "Module Qualification & Multi-Module Research Architecture Reset",
+      "status": "COMPLETE — ARCHITECTURE FRAMEWORK ESTABLISHED"
+    },
+    "M44": {
+      "name": "M3 Economic Candidate Discovery Under New Module Architecture",
+      "status": "COMPLETE — NO M3 CANDIDATE"
+    },
+    "M45": {
+      "name": "Research-Cycle Closure, Evidence Ledger & Restart Conditions",
+      "status": "COMPLETE — CURRENT CYCLE CLOSED / PAUSED"
+    },
+    "M46": {
+      "name": "SMC-Derived Research Integration & Programme Re-Entry",
+      "status": "COMPLETE — INTEGRATION COMPLETE; APEX PAUSED"
+    },
+    "M47": {
+      "name": "Integrated Economic Research-Direction Discovery",
+      "status": "COMPLETE — CANDIDATE SELECTED; M48 AUTHORIZED FOR DESIGN"
+    },
+    "M48": {
+      "name": "Funding Rate Economic Mechanism Methodology Design",
+      "status": "COMPLETE — METHODOLOGY FROZEN; READY FOR CONTROL SESSION REVIEW"
+    },
+    "M48-CR": {
+      "name": "Funding Rate Methodology Control Review",
+      "status": "COMPLETE — M48 BLOCKED; ECONOMIC MECHANISM NOT ESTABLISHED"
+    },
+    "M49": {
+      "name": "Funding/Carry Mechanism Re-Discovery",
+      "status": "COMPLETE — FUNDING MECHANISM NOT ESTABLISHED; PATH CLOSED"
+    },
+    "M50": {
+      "name": "Integrated Evidence & Economic Hypothesis Discovery",
+      "status": "COMPLETE — KEEP PAUSED; NO CANDIDATE EARNS METHODOLOGY-DESIGN CYCLE"
+    },
+    "POST-M50-CONTROL": {
+      "name": "Research Restart Adjudication",
+      "status": "COMPLETE — KEEP APEX PAUSED; NO CANDIDATE EARNS RESTART"
+    },
+    "APEX-CONTROL-SESSION-RESTART-REVIEW": {
+      "name": "Control Session Restart Review & Evidence-Ledger Re-Verification",
+      "status": "COMPLETE — A: KEEP APEX PAUSED; NO CANDIDATE SATISFIES RESTART GATE"
+    },
+    "APEX-TASK01": {
+      "name": "Economic Knowledge & Closed-Path Map",
+      "status": "COMPLETE — repository-only audit/knowledge map; programme remains PAUSED. Outputs: reports/APEX_ECONOMIC_KNOWLEDGE_MAP.md, APEX_ECONOMIC_KNOWLEDGE_MAP.csv, APEX_TASK01_RESULT.md. M1/M2 preserved; M3=0, M4=0, M5=0. Closed paths C01-C14 (13 definitive + Study 006 nuance). Contradiction flagged: RC012 Study 006 synthetic positive-net vs M34/M45 spot-monetization FAILED (reconciled in-repo; not a hidden M4). Custom-bot Week-6 document NOT found. API=0, data=0, spend=$0."
+    },
+    "APEX-TASK01-R1": {
+      "name": "RC012 Study-006 Adjudication",
+      "status": "COMPLETE — evidence-classification clarification only; NO M3/M4/M5 qualification; programme remains PAUSED. Outputs: reports/APEX_TASK01_R1_RC012_STUDY006_ADJUDICATION.md, APEX_TASK01_R1_RESULT.md. M4=0 unchanged."
+    },
+    "APEX-TASK02": {
+      "name": "Economic Mechanism Discovery",
+      "status": "COMPLETE — 24 candidates surveyed (categories A-J): 21 Tier-0 REJECT, 3 Tier-1 RETAIN (G1, G2, I2) forming 2 mechanism themes, 0 Tier 2, 0 Tier 3. NO GENUINELY NEW ECONOMIC MECHANISM IDENTIFIED as a current, accessible, independently-payoff M3/M4 candidate. W1/W2 carried to Task 03 watchlist. M3=0, M4=0, M5=0. Outputs: reports/APEX_TASK02_ECONOMIC_MECHANISM_DISCOVERY.md/.csv, APEX_TASK02_RESULT.md. API=0, data=0, spend=$0."
+    },
+    "APEX-TASK03": {
+      "name": "Pause & Restart Watchlist / Dormant-State Control",
+      "status": "COMPLETE — GOVERNANCE/DOCUMENTATION only; converts pause into a formally documented DORMANT / WATCHLIST STATE. Restart gate R1-R10; decision states A-E; mechanism watchlist W1/W2; external triggers T1-T5; closed-path immutability; prohibited restart paths; custom-bot evidence limitation (verbatim). No research. M3=0, M4=0, M5=0. Outputs: reports/APEX_TASK03_PAUSE_RESTART_WATCHLIST.md/.csv, APEX_TASK03_RESULT.md."
+    },
+    "APEX-M51": {
+      "name": "Research Evidence Ledger + Bot-Analysis Repository Audit + Git Backup",
+      "status": "COMPLETE — RESEARCH_KNOWLEDGEBASE_AUDIT (knowledge-integration + version-control backup; NO experiment/hypothesis/strategy work). Original custom-bot Week-6 statistical analysis document NOT FOUND via forensic filename+content search of D:\\Gold Scripts\\MQL5 (only bot source scripts CAB.py/ghost_grid.py/SMC.py found; remaining hits incidental, unrelated). Custom-bot classification preserved: B USER-SUPPLIED/OBSERVED, UNAUDITED; EVIDENCE LIMITATION retained; no substitute document created. Created canonical ledger reports/APEX_RESEARCH_EVIDENCE_LEDGER.csv (45 rows; M4 global module count = 0), master index reports/APEX_MASTER_RESEARCH_INDEX.md, audit reports/APEX_M51_RESEARCH_KNOWLEDGEBASE_AUDIT.md, result reports/APEX_M51_RESULT.md. State/handoff updated; git backup committed+ pushed. M3=0, M4=0, M5=0; economic research authorization=NONE. API=0, data=0, spend=$0."
+    }
   },
-  "current_milestone": "M34 (CLOSED — HIGH_VOL Branch Formally Closed)",
-  "blocker": null,
+  "current_milestone": "APEX-M51 (COMPLETE — RESEARCH KNOWLEDGEBASE AUDIT + GIT BACKUP; knowledge-integration / version-control backup ONLY; NO experiment/hypothesis/strategy work; PROGRAMME REMAINS PAUSED/DORMANT; no M52 started — STOP after M51)",
+  "blocker": "APEX TASK 03 (2026-08-30) complete: governance/documentation only — PAUSE & RESTART WATCHLIST / DORMANT-STATE CONTROL. Programme state unchanged — KEEP APEX PAUSED (A), consistent with M49/M50/POST-M50/CONTROL-SESSION-RESTART-REVIEW/TASK01/TASK01-R1/TASK02. M3=0, M4=0, M5=0; no active research milestone; no M51. Task 02 surveyed 24 economic-mechanism candidates (A-J): 21 Tier-0 REJECT, 3 Tier-1 RETAIN (G1, G2, I2) forming 2 themes, 0 Tier 2, 0 Tier 3; NO GENUINELY NEW ECONOMIC MECHANISM IDENTIFIED as a current accessible independently-payoff M3/M4 candidate. Task 03 formalized the dormant state: restart gate R1-R10 (all currently unsatisfied; R6 overlay hard-blocked because existing M4=0); decision states A-E (nothing auto-advances beyond STATE B); mechanism watchlist W1 (commodity convenience yield / inventory term structure, G1/G2) and W2 (new liquid venue/instrument carrying validated vol info with independent payoff, I2) — WATCHLIST-ONLY, neither a current M3/M4 nominee; external triggers T1-T5 (activate REVIEW A->B only, never experimentation); closed-path immutability (HIGH_VOL, breakout, session-transition, options, BOS+OB, CHOCH, cross-asset, funding/carry, overlays); prohibited restart paths (signal/model/regime/exit/risk/portfolio/execution optimization, timeframe/instrument substitution, terminology rename). Custom-bot Week-6 document NOT found on disk; remains B USER-SUPPLIED/OBSERVED (verbatim evidence limitation preserved); finding it later (T3) triggers evidence classification + repository audit only, not research. API=0, data=0, spend=$0, experiments=0, bot modifications=0. No milestone number invented (Task 03 is a governance task, not an economic research milestone). NEXT ACTION = NONE (STOP). Restart remains gated on: genuinely new economic object with independent payoff, repository-audited (or flagged) evidence, validated M4 base (for overlays), frozen falsifiable M3 hypothesis, no lookahead, realistic frozen costs, no research rescue.",
+  "ic6r2_cr_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-26",
+    "decision": "REJECT IC6-R2",
+    "fatal_bug": "Python loop-variable scoping in batch processing caused TTE computation to use wrong prediction timestamp",
+    "impact": "57.3% of eligible observations had TTE error >= 100h; mean error 307.4h",
+    "correctly_eligible": 14,
+    "incorrectly_eligible": 103,
+    "total_reported_eligible": 117,
+    "amendment_decisions": {
+      "maturity_[6h,72h]": "NOT APPROVED — use [12h, 24h]",
+      "iv_from_trade_data": "APPROVED — equivalent Black-76",
+      "freshness_unbounded": "NOT APPROVED — require trade timestamp within 1h"
+    },
+    "ic7_status": "BLOCKED",
+    "next_milestone": "IC6-R3 — Corrected BTC Options Data Validation",
+    "methodology_amendment_created": false
+  },
+  "ic6r3_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-26",
+    "decision": "PASS",
+    "fatal_bug_fixed": "TTE computation (Python loop-variable scoping)",
+    "corrections_applied": {
+      "maturity": "[12h, 24h]",
+      "freshness": "trade timestamp <= prediction AND age <= 1h",
+      "call_put_joint": "same strike, same expiry, both fresh",
+      "iv_source": "pre-computed Black-76 from trade data"
+    },
+    "eligible_observations": 343,
+    "ic5_minimum": 100,
+    "sample_gate": "PASS",
+    "tte_mean": 16.63,
+    "tte_range": "[12.00, 24.00]",
+    "trade_age_mean_min": 5.8,
+    "trade_age_median_min": 2.8,
+    "iv_mean": 54.95,
+    "iv_median": 53.21,
+    "iv_min": 25.14,
+    "iv_max": 127.93,
+    "reproducibility": "PASS",
+    "lookahead": "NONE",
+    "next_milestone": "IC7 — BTC IV/RV Economic Execution",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
   "high_vol_closure": {
     "branch_status": "CLOSED",
     "closure_classification": "SCIENTIFICALLY INFORMATIVE, ECONOMIC IMPLEMENTATION UNRESOLVED",
@@ -125,8 +483,787 @@
     "status": "CLOSED",
     "closure_milestone": "M34",
     "primary_decision": "FORMALLY CLOSE HIGH_VOL BRANCH (Option A, score=43/50)",
-    "mandatory_stop": true,
-    "next_milestone": "M35 — APEX Next-Research Direction Discovery (PLANNED — NOT STARTED)"
+    "mandatory_stop": true
+  },
+  "m35_direction_discovery": {
+    "status": "COMPLETE",
+    "primary_recommendation": "C1 - Session-Transition Distributional Asymmetry (score=45/50)",
+    "backup_recommendation": "C2 - LOW_VOL Compression Breakout (score=44/50)",
+    "candidates_scored": 7,
+    "next_milestone": "M40 - Session-Transition Characterization (PLANNED — REQUIRES AUTHORIZATION)",
+    "m39r2_finding": "Day-block permutation test selected; random label assignment under H0; preserves dependence, destroys treatment effect",
+    "m39r2_classification": "VALID NULL — REFREEZE REQUIRED",
+    "m39r2_null_construction": "Day-block permutation with random label assignment (N_LNO=2757 preserved)",
+    "m39r2_inference_hierarchy": "Permutation p-value primary; SciPy significance_level secondary diagnostic",
+    "m39r2_exec_result": "COMPLETE: p = 0.000100; 0/10000 exceedances; DISTRIBUTIONAL DIFFERENCE ESTABLISHED",
+    "m39r2_exec_observed_ad": 228.382562,
+    "m39r2_exec_null_mean": -0.00766,
+    "m39r2_exec_null_std": 1.001076,
+    "m39r2_exec_null_max": 11.973414
+  },
+  "independent_audit": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "research_maturity": "7/10",
+    "economic_maturity": "2/10",
+    "strategy_maturity": "0/10",
+    "execution_maturity": "0/10",
+    "deployment_maturity": "0/10",
+    "independent_verdict": "YES — WITH MAJOR CHANGE",
+    "probability_of_tradeable_strategy": "LOW",
+    "dominant_missing_piece": "Economic mechanism",
+    "research_convergence": "DIVERGING — signal re-expression pattern",
+    "continue_or_restructure": "ONLY AFTER RESTRUCTURING",
+    "recommended_architecture": "C — Economic Mechanism Discovery",
+    "recommended_next_milestone": "IC1 — Instrument Feasibility Survey",
+    "highest_evidence_level_reached": "Level 3 — Economic Translation (M27)",
+    "highest_evidence_level_NOT_reached": "Level 4 — Tradeable Edge",
+    "key_findings": [
+      "No APEX finding reaches Level 4 (Tradeable Edge)",
+      "Signal-instrument structural mismatch: non-directional signal vs directional instruments",
+      "Signal re-expression pattern: ~15 milestones producing lateral characterization without economic progress",
+      "Every monetization attempt has failed (RC012 S007-S011, M31, RC015)",
+      "Session-transition finding (M39-R2) may be rediscovering known intraday volatility seasonality",
+      "Research methodology is outstanding; the problem is research direction, not rigor"
+    ],
+    "deliverables": [
+      "reports/APEX_INDEPENDENT_STRATEGY_VIABILITY_AUDIT.md",
+      "reports/APEX_INDEPENDENT_RESEARCH_MATURITY_SCORECARD.csv",
+      "reports/APEX_INDEPENDENT_NEXT_PHASE_ARCHITECTURE.md",
+      "reports/APEX_INDEPENDENT_ARCHITECT_RECOMMENDATION.md"
+    ]
+  },
+  "ic3_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "decision": "CONTINUE",
+    "btc_transferability": "SUPPORTED",
+    "oos_c_index": 0.6224,
+    "baseline_c_index": 0.4864,
+    "delta_c_index": 0.136,
+    "falsification_threshold": 0.55,
+    "falsification_gate": "PASS",
+    "oos_predictions": 1571,
+    "successful_fits": 1571,
+    "failed_fits": 0,
+    "btc_episodes": 1621,
+    "mean_episode_duration": 21.3,
+    "forward_rv_translation": "ESTABLISHED",
+    "forward_rv_ols_beta": -0.072,
+    "forward_rv_ols_p": 1.1e-05,
+    "forward_rv_horizon_hours": 12,
+    "integrity_gates": "ALL 9 PASS",
+    "next_milestone": "IC6-R2 — Re-run with Tardis data",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic4_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "decision": "PASS WITH LIMITATIONS",
+    "local_btc_option_data": false,
+    "external_data_available": true,
+    "external_data_cost": "$0.00",
+    "data_sources": [
+      "Tardis.dev",
+      "CryptoDataDownload",
+      "Deribit API"
+    ],
+    "data_prerequisite": "BTC options historical data must be acquired before IC5",
+    "iv_representation": "ATM implied volatility (Black-76 inversion from midpoint)",
+    "strike_selection": "Nearest strike to BTC-PERPETUAL mark price",
+    "maturity_rule": "Nearest expiry with TTE in [6h, 18h]; fallback: nearest expiry with TTE > 0",
+    "maturity_mismatch_max": "24 hours",
+    "interpolation": "NOT permitted",
+    "staleness_threshold": "1 hour (60 minutes) — newly frozen in IC4",
+    "quote_quality_tiers": "Tier 1 (fresh bid/ask, spread < 5 vol pts) primary; Tier 2 (≤ 1h stale) acceptable",
+    "annualization_rv": "365.25 × 96 = 35064 (BTC 24/7, M15)",
+    "annualization_iv": "365 days/year (Deribit standard)",
+    "annualization_compatibility": "< 0.02% difference — no conversion required",
+    "gate_a_historical_data": "PASS WITH LIMITATION — not local, freely available externally",
+    "gate_b_iv_observability": "PASS — Black-76 inversion from observable inputs",
+    "gate_c_maturity_matching": "PASS — frozen deterministic rule specified",
+    "gate_d_market_quality": "PASS — frozen staleness threshold and spread filter",
+    "methodology_gaps": "Staleness threshold newly frozen (IC4 amendment, not deviation)",
+    "next_milestone": "IC6-R2 — Re-run with Tardis data",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic6r2_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "decision": "PASS",
+    "data_source": "Deribit History API v2 (history.deribit.com)",
+    "data_type": "Historical option trade data with pre-computed IV",
+    "api_calls": 827,
+    "cost": 0.0,
+    "eligible_observations": 117,
+    "ic5_minimum": 100,
+    "sample_gate": "PASS",
+    "iv_mean": 53.62,
+    "iv_median": 53.78,
+    "iv_min": 26.8,
+    "iv_max": 112.43,
+    "iv_std": 12.73,
+    "methodology_amendments": {
+      "maturity_window": "[6h, 72h] (amended from [6h, 18h] — BTC daily expiry TTE ~16-20h)",
+      "iv_source": "Pre-computed Black-76 from trade data (equivalent to midpoint method)",
+      "freshness": "24h trade window (no BBO available)"
+    },
+    "next_milestone": "IC7 — BTC IV/RV Economic Execution",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic6r3_cr_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-26",
+    "decision": "B — APPROVE IC7 WITH EXPLICIT LIMITATION",
+    "limitation": "TTE [12h,24h] means IV covers ~16.6h, wider than IC3 12h prediction horizon",
+    "limitation_impact": "Conservative — strengthens economic test",
+    "limitation_documentation": "Required in IC7 interpretation",
+    "eligible_observations": 343,
+    "amendments_required": false,
+    "ic7_status": "AUTHORIZED",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic7_result": {
+    "status": "COMPLETE — VALIDATED BY IC7-CR",
+    "date": "2026-08-26",
+    "decision": "NO ECONOMIC EDGE — LONG-STRADDLE REJECTED",
+    "eligible_observations": 343,
+    "conditional_observations": 267,
+    "ols_correlation": 0.1814,
+    "predicted_rv_pct_mean": 62.61,
+    "iv_pct_mean": 54.95,
+    "forecast_iv_spread_mean": 7.66,
+    "fraction_predicted_rv_gt_iv": 0.778,
+    "straddle_premium_usd_mean": 1209.32,
+    "net_pnl_usd_mean_all": -199.05,
+    "conditional_mean_pnl": -129.72,
+    "conditional_hit_rate": 0.337,
+    "hac_t_stat": -1.672,
+    "hac_se": 77.58,
+    "p_value_one_sided": 0.953,
+    "gate_a": true,
+    "gate_b": false,
+    "gate_c": true,
+    "gate_d": false,
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic7cr_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-26",
+    "decision": "A — IC7 VALID — LONG-STRADDLE MECHANISM REJECTED",
+    "sample_lineage": "PASS — 343 IC7 observations map 1:1 to 343 IC6-R3 approved observations",
+    "reconciliation_117_to_343": "TTE scoping bug fix + call/put joint-check fix + maturity window correction",
+    "h1_prediction": "SUPPORTED (r=0.1814 OOS)",
+    "h2_pricing": "PARTIALLY SUPPORTED but INSUFFICIENT",
+    "h3_trading": "REJECTED (mean conditional PnL = -$130, p=0.953)",
+    "entry_premium": "MINOR IMPLEMENTATION LIMITATION — Black-76 from IV, F=K approximation",
+    "pnl_scaling": "PASS",
+    "conditional_sample": "PRE-REGISTERED IN IC5",
+    "baseline_comparison": "DESCRIPTIVE ONLY — no formal test frozen",
+    "maturity_language": "CORRECTION REQUIRED — no sensitivity tested",
+    "long_straddle_mechanism": "REJECTED",
+    "crypto_options_path": "OPEN BUT FROZEN — long-straddle closed",
+    "ic8_status": "BLOCKED — no alternative mechanism proposed",
+    "next_authorized_milestone": "NONE",
+    "report_corrections": [
+      "Remove 'robust to maturity limitation' claim",
+      "Reclassify '35% better than baseline' as descriptive only",
+      "State: IC7 failed under [12h,24h]; robustness not tested"
+    ],
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic8_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "C — CRYPTO-OPTIONS PATH CLOSED",
+    "candidates_evaluated": 4,
+    "short_volatility": "SAME MECHANISM — REJECT (score 23/50)",
+    "term_structure": "DISTINCT IN PRINCIPLE — FAILS ON INFORMATION (score 25/50)",
+    "cross_instrument": "REJECT — REOPENS RC014 (score 14/50)",
+    "non_option_vol": "DISTINCT IN PRINCIPLE — FAILS ON FEASIBILITY (score 17/50)",
+    "top_surviving_mechanism": "NONE",
+    "core_diagnosis": "Information-instrument mismatch — APEX predicts timing/magnitude; options market prices level",
+    "long_straddle_mechanism": "REJECTED (IC7)",
+    "crypto_options_path": "CLOSED",
+    "next_authorized_milestone": "NONE",
+    "recommendation": "Return to broader APEX economic-mechanism discovery when new instrument classes or predictive models available",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic9_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "C — ECONOMIC DEVELOPMENT PAUSE",
+    "candidates_evaluated": 5,
+    "futures_carry": "NEW RESEARCH PROGRAM (score 20/50)",
+    "market_making": "EXISTING PRACTICE — REJECT (score 13/50)",
+    "session_liquidity": "REQUIRES M40 CHARACTERIZATION (score 30/50) — STRONGEST CANDIDATE",
+    "cross_sectional": "REOPENS RC014 — REJECT (score 11/50)",
+    "structured_carry": "NEW RESEARCH PROGRAM (score 20/50)",
+    "top_surviving_candidate": "C (SESSION_LIQUIDITY_PREMIUM) — requires M40 first",
+    "core_bottleneck": "Validated information exists but no instrument payoff mechanism established",
+    "m40_dependency": "Domain C requires M40 characterization before economic translation",
+    "crypto_options_path": "CLOSED (IC8)",
+    "broader_economic_path": "PAUSED — M40 prerequisite",
+    "next_authorized_milestone": "M40 — Session-Transition Characterization (requires control session authorization)",
+    "recommendation": "Execute M40 to characterize LNO distributional difference; then re-evaluate Domain C",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "m40_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "A — AUTHORIZE M41 EMPIRICAL EXECUTION DESIGN",
+    "primary_architecture": "Sequential Hierarchical Moment Decomposition",
+    "architecture_score": "48/50",
+    "components_tested": 4,
+    "component_1": "LOCATION — mean difference (one-sided upper)",
+    "component_2": "SCALE — std difference (two-sided)",
+    "component_3": "SKEWNESS — skewness difference (two-sided)",
+    "component_4": "TAIL — |Q_0.05 difference| (one-sided upper)",
+    "residual_test": "KS on standardized residuals (one-sided upper)",
+    "multiplicity_framework": "Sequential testing at alpha=0.05; FWER <= 0.05",
+    "dependence_framework": "Day-block permutation 10000 reps seed 42",
+    "permutation_efficiency": "Single run; all statistics computed on each replicate",
+    "falsification": "If no component rejects: CDF difference is unexplained shape phenomenon",
+    "primary_data": "reports/APEX_M39R2_Session_Transition_Return_Data.csv",
+    "sample": "LNO=2757, CTRL=29184, Total=31941",
+    "next_authorized_milestone": "M41 — Session-Transition Distributional Component Experiment",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "m41_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "COMPONENT IDENTIFIED — SCALE",
+    "hierarchy_stopping_point": 2,
+    "primary_component": "SCALE (standard deviation difference)",
+    "component_1_location": {
+      "observed": 3.63e-06,
+      "exceedances": 4366,
+      "p_value": 0.4367,
+      "decision": "FAIL TO REJECT"
+    },
+    "component_2_scale": {
+      "observed": 0.00058731,
+      "lno_std": 0.00149361,
+      "ctrl_std": 0.0009063,
+      "exceedances": 0,
+      "p_value": 0.0001,
+      "decision": "REJECT"
+    },
+    "lno_returns_1_65x_more_dispersed": true,
+    "no_directional_premium": true,
+    "session_transition_is_volatility_phenomenon": true,
+    "next_authorized_milestone": "M42 — requires control session authorization",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "m42_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "C — ECONOMIC MECHANISM NOT YET JUSTIFIED",
+    "standalone_assessment": "FAILS — deterministic phenomenon, no information asymmetry",
+    "modular_assessment": "FAILS — no validated base component with economic payoff",
+    "candidates_evaluated": 5,
+    "standalone_score": 31,
+    "regime_filter_score": 23,
+    "risk_modifier_score": 23,
+    "timing_module_score": 23,
+    "combined_vol_score": 20,
+    "top_surviving_architecture": "NONE",
+    "core_bottleneck": "APEX has validated information but not validated economic payoff",
+    "why_standalone_fails": "LNO is deterministic and publicly known; no information asymmetry",
+    "why_modular_fails": "No validated base component with economic payoff exists",
+    "next_authorized_milestone": "NONE",
+    "recommendation": "Pause economic development; preserve validated knowledge",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "m43_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "B — SCIENTIFICALLY INTERESTING BUT ECONOMICALLY UNREADY",
+    "programme_action": "ECONOMIC DEVELOPMENT PAUSE",
+    "validated_scientific_findings": 10,
+    "validated_economic_findings": 5,
+    "closed_economic_paths": 8,
+    "candidates_evaluated": 6,
+    "candidates_survived": 0,
+    "stop_rules_all_met": true,
+    "restart_conditions": [
+      "new instrument class",
+      "new predictive model for economic variable",
+      "independently validated edge for module combination",
+      "new market where vol state not priced"
+    ],
+    "bot_architecture_principle": {
+      "architecture_a": "single dominant strategy",
+      "architecture_b": "validated module combination with predeclared mechanism",
+      "forbidden": "empirical combination mining"
+    },
+    "next_authorized_milestone": "NONE",
+    "programme_status": "PAUSED",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ar1_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "FRAMEWORK COMPLETE — PAUSED PENDING NEW SCIENTIFIC QUESTION",
+    "module_lifecycle": "M0 (Phenomenon) -> M1 -> M2 -> M3 -> M4 -> M5",
+    "m4_plus_count": 0,
+    "m3_count": 0,
+    "m2_count": 3,
+    "m1_count": 4,
+    "closed_count": 5,
+    "bot_readiness": "NOT READY — no M4+ modules exist",
+    "architecture_options": {
+      "architecture_a": "Single M4/M5 killer strategy",
+      "architecture_b": "Regime router (M4) + 2-3 specialist modules (M4 each)"
+    },
+    "combination_rule": "Both modules M4+, ex-ante rationale, frozen interaction, combined OOS",
+    "anti_combination_mining": "FORBIDDEN: test all combinations, pick best PnL",
+    "next_authorized_milestone": "NONE",
+    "programme_status": "PAUSED",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "m44_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "C — NO M3 CANDIDATE",
+    "candidates_evaluated": 5,
+    "candidates_survived": 0,
+    "candidate_a_high_vol": "REJECTED (15/50) — same mechanism as closed IC7/IC8",
+    "candidate_b_btc_vol": "REJECTED (15/50) — same mechanism as closed crypto-options",
+    "candidate_c_lno_scale": "REJECTED (10/50) — deterministic, no asymmetry (M42)",
+    "structural_gap": "APEX knows WHEN vol is different; market already prices this",
+    "m2_to_m3_blocker": "No alternative instrument class; no new economic mechanism",
+    "next_authorized_milestone": "NONE",
+    "programme_status": "PAUSED",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "m45_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-27",
+    "decision": "A — CURRENT CYCLE CLOSED / PAUSED",
+    "proven_findings": 10,
+    "failed_hypotheses": 10,
+    "closed_paths": 10,
+    "m4_plus_modules": 0,
+    "m44_architectural_inference_corrected": "Market pricing all APEX info is INFERENCE not proven",
+    "restart_conditions": [
+      "new instrument",
+      "new primitive",
+      "new model",
+      "external development",
+      "new mechanism"
+    ],
+    "forbidden_triggers": [
+      "parameter adjustments",
+      "rescue attempts",
+      "combinatorial",
+      "reopenings",
+      "psychological"
+    ],
+    "next_authorized_milestone": "NONE",
+    "programme_status": "CURRENT CYCLE CLOSED / PAUSED",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "m46_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-29",
+    "decision": "INTEGRATION COMPLETE — APEX REMAINS PAUSED",
+    "smc_milestones_integrated": "SMC-R1 through SMC-R11",
+    "smc_physical_location": "research/SMC_RESEARCH/",
+    "governance_frameworks_adopted": [
+      "R10 qualification",
+      "R11 rare-event",
+      "R11 bot architecture"
+    ],
+    "scientific_primitives_preserved": 7,
+    "gross_economic_findings_preserved": 2,
+    "closed_economic_paths": 7,
+    "m4_modules": 0,
+    "m5_candidates": 0,
+    "current_smc_authorization": "NONE",
+    "namespace_distinction": "APEX-Mxx / SMC-Rxx",
+    "next_authorized_milestone": "NONE",
+    "programme_status": "INTEGRATED / PAUSED"
+  },
+  "m47_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-29",
+    "decision": "B — AUTHORIZE ONE METHODOLOGY-DESIGN CYCLE",
+    "candidates_surveyed": 8,
+    "candidates_eliminated": 4,
+    "candidates_scored": 4,
+    "top_candidate": "C5 — Funding Rate / Carry Prediction on Perpetual Swaps",
+    "top_candidate_score": 42,
+    "top_candidate_novelty": "GENUINELY NEW",
+    "top_candidate_why_new": "Predicts funding rate/carry (linear perp payoff) — NOT realized volatility; completely different from failed options/vol mechanisms",
+    "top_candidate_why_not_rescue": "Does not reuse BOS+OB, CHOCH, LNO, or HIGH_VOL economic mechanisms; predicts economically compensated risk (market maker inventory/funding)",
+    "top_candidate_mechanism": "Structural state → funding rate regime → perp funding capture (linear, no convexity drag)",
+    "top_candidate_instrument": "BTC/ETH perpetual swaps (freely available deep history)",
+    "top_candidate_m3_hypothesis": "E[R_net] > 0 for funding capture conditioned on structural state after perp costs",
+    "top_candidate_evidence": "≥2 years perp history, ≥100 events/regime, HAC-robust t-test",
+    "top_candidate_falsification": "Net PnL ≤ 0; no regime difference in funding rates",
+    "next_authorized_milestone": "M48 — Funding Rate Prediction Methodology Design",
+    "authorization_scope": "METHODOLOGY DESIGN ONLY; empirical execution PROHIBITED pending Control Session review",
+    "programme_status": "PAUSED with M48 authorized for design"
+  },
+  "m48_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-29",
+    "decision": "METHODOLOGY FROZEN — READY FOR CONTROL SESSION REVIEW",
+    "funding_variable": "Next-period funding rate (bps) on Binance BTCUSDT perpetual",
+    "information_source": "APEX HIGH_VOL state on BTC M1 (binary, 80th percentile RV threshold)",
+    "instrument": "Binance BTCUSDT USDT-margined linear perpetual (8-hour funding)",
+    "economic_mechanism": "Directional carry — SHORT when HIGH_VOL=1; receive funding; accept price risk",
+    "position_structure": "SHORT 1 BTC when HIGH_VOL=1; FLAT when HIGH_VOL=0; open at signal, close at next funding timestamp",
+    "primary_endpoint": "Expected Net Payoff per signal event (USDT): E[NetPayoff | HIGH_VOL=1] > 0",
+    "m3_hypothesis": "E[NetPayoff | HIGH_VOL=1] > 0 where NetPayoff = -F×N + (P_entry-P_exit)×N - ExecutionCosts",
+    "falsification": "E[NetPayoff | HIGH_VOL=1] ≤ 0; or funding doesn't cover costs; or price loss > funding; or no funding rate difference between HIGH_VOL states; or <30 independent episodes in OOS",
+    "architecture_selected": "A — Directional Carry (score 46/50)",
+    "rejected_architectures": [
+      "B: Hedged Carry",
+      "C: Conditioning",
+      "D: Cross-Asset"
+    ],
+    "cost_model": "Spread + 0.02% commission + 0.5 bps slippage per leg",
+    "authorization_scope": "METHODOLOGY DESIGN ONLY; empirical execution PROHIBITED pending Control Session review",
+    "next_authorized_milestone": "M49 — Methodology Control Review (PLANNED — NOT AUTHORIZED)",
+    "programme_status": "PAUSED with M48 methodology frozen for Control Session review"
+  },
+  "m48_cr_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-29",
+    "decision": "C — M48 BLOCKED — ECONOMIC MECHANISM NOT ESTABLISHED",
+    "m48_status": "REJECTED",
+    "blocking_issues": [
+      "Fundamental sign error: SHORT position frozen but mechanism argues for positive funding (SHORT pays)",
+      "Circularity: Position direction assumes funding direction methodology claims to test",
+      "Funding cash flow formula error: Missing mark price multiplier",
+      "Incomplete frozen methodology: event unit, OOS split, test statistic, dependence treatment, alpha, evidence rule unresolved",
+      "Event identity unresolved: Multiple M1 signals per HIGH_VOL episode → same funding interval",
+      "Unvalidated predictor for new target: HIGH_VOL validated for RV prediction, not funding; resolution M15→M1; threshold for RV not funding"
+    ],
+    "blocking_count": 11,
+    "m49_authorized": false,
+    "m50_authorized": false,
+    "m51_authorized": false,
+    "m52_authorized": false,
+    "next_authorized_milestone": "NONE — Awaits Control Session direction",
+    "programme_status": "PAUSED — M48 REJECTED; Awaits Control Session direction"
+  },
+  "m49_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-29",
+    "decision": "B — FUNDING MECHANISM NOT ESTABLISHED — CLOSE PATH",
+    "h1_prediction": "FAIL — No validated predictor for funding rates (HIGH_VOL validated for RV, not funding)",
+    "h2_economic_relationship": "UNVALIDATED — Theoretically plausible (inventory risk compensation) but no validated predictor",
+    "h3_trading": "MARGINAL — Funding per interval (1-3 bp) < execution costs (5-12 bp)",
+    "funding_sign_convention": "F>0: longs pay shorts; F<0: shorts pay longs. M48 had fundamental sign error.",
+    "position_direction_principle": "Direction must follow mechanism, not precede it. M48 froze SHORT before mechanism established.",
+    "funding_per_interval_bp": "1-3 bp typical",
+    "execution_costs_bp": "5-12 bp typical",
+    "candidate_score": 26,
+    "candidate_threshold": 35,
+    "next_authorized_milestone": "NONE — Funding/carry path closed at mechanism discovery",
+    "programme_status": "PAUSED — Funding/carry path closed"
+  },
+  "m50_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-30",
+    "decision": "A — KEEP APEX PAUSED (no candidate earns a methodology-design cycle)",
+    "integrated_evidence_sources": "custom-bot Week-6 operational analysis (CAB/Ghost/Unified Runner): classified B/OBSERVED, C/HYPOTHESIS, D/ARCHITECTURAL — NOT validated",
+    "evidence_classification": {
+      "A_VALIDATED_APEX": "HIGH_VOL, session-transition(LNO), BTC transfer, SMC structural + gross effects, all closed paths",
+      "B_OBSERVED_BOT": "R-Velocity early-deterioration; ATR/ADX/volume/session outcome differences; stale-cache->poor-entry; correlated drawdown concentration; regime UNKNOWN; missing spread/execution measurement",
+      "C_HYPOTHESIS": "early-path predicts payoff; regime changes economics; execution friction consumes edge",
+      "D_ARCHITECTURAL_INFERENCE": "signal->risk->allocation overlay; execution/portfolio modules"
+    },
+    "top_candidate": "NONE (highest concept: Execution-State 34/60; Trade-Path 30/60 — both hypotheses, not validated)",
+    "economic_mechanism": "execution-state: edge-vs-friction (coherent, needs M4 base); trade-path: path-dependent exposure (weak compensation chain)",
+    "m3_hypothesis": "NONE frozen",
+    "falsification": "NONE frozen",
+    "m4_modules": 0,
+    "m5_candidates": 0,
+    "next_milestone": "NONE — await Control Session direction",
+    "programme_status": "PAUSED — no candidate earns a research cycle"
+  },
+  "post_m50_control": {
+    "status": "COMPLETE",
+    "date": "2026-08-30",
+    "decision": "A — KEEP APEX PAUSED (no candidate earns restart)",
+    "candidate": "NONE",
+    "economic_mechanism": "NONE established",
+    "payoff": "NONE independent",
+    "m3_hypothesis": "NONE frozen",
+    "evidence_requirement": "Validated M4 base module + repository-audited evidence",
+    "falsification": "NONE frozen",
+    "evidence_limitation": "EVIDENCE LIMITATION — REQUIRES FUTURE REPOSITORY AUDIT: original custom-bot analysis document not found on filesystem; user-supplied observations are not repository-audited proof",
+    "top_candidates_adjudicated": {
+      "execution_state": "REJECT — largely cost/execution modeling (mandatory frozen-cost layer), not standalone mechanism; no M4 base",
+      "trade_path": "REJECT — strongest conceptual novelty but exit/decision optimization on nonexistent base; missing non-audited R-Velocity evidence",
+      "portfolio_risk": "REJECT — risk-management engineering only; no validated module portfolio; no independent payoff",
+      "regime_specialist": "REJECT — regime-mining risk (R11)",
+      "transition_aware": "REJECT — reopens M42-closed session-transition",
+      "cross_stream": "REJECT — combination-mining (M4=0)"
+    },
+    "next_milestone": "NONE — APEX remains paused",
+    "programme_status": "PAUSED — no candidate earns restart"
+  },
+  "apex_control_session_restart_review": {
+    "status": "COMPLETE",
+    "date": "2026-08-30",
+    "decision": "A — KEEP APEX PAUSED (no candidate satisfies restart gate)",
+    "type": "CONTROL / ADJUDICATION ONLY — no experiment, methodology, data acquisition, or bot modification",
+    "evidence_reverified": true,
+    "m3_candidates": 0,
+    "m4_modules": 0,
+    "m5_candidates": 0,
+    "closed_paths_count": 13,
+    "custom_bot_audit": {
+      "authorized": false,
+      "reason": "Locating the Week-6 document would NOT materially change the restart decision — observations would remain B-class operational (require a full new M0→M1→M2 validation on non-authorized bot data) and Execution-State/Trade-Path still require a validated M4 base module that finding the document does not create",
+      "search_result": "original custom-bot Week-6 analysis document NOT found on disk (filename + content search across apex tree and broader grid-research tree; only internal references in APEX governance files matched)",
+      "evidence_limitation": "EVIDENCE LIMITATION — REQUIRES FUTURE REPOSITORY AUDIT"
+    },
+    "candidate": "NONE",
+    "candidates_adjudicated": {
+      "execution_state_34": "FAIL — largely cost/execution modeling (mandatory frozen-cost layer); no base; no independent payoff; B-class engineering trigger (stale cache)",
+      "trade_path_30": "FAIL — exit/decision optimization on nonexistent base; missing non-audited R-Velocity; weak compensation chain",
+      "portfolio_risk_29": "FAIL — risk-management engineering; no validated module portfolio; no independent payoff",
+      "regime_specialist_27": "FAIL — regime-mining risk (R11), outcome-leaning definitions, no M4 base",
+      "transition_aware_20": "FAIL — reopens M42-closed session-transition with no new mechanism",
+      "cross_stream_17": "FAIL — combination-mining (M4=0)"
+    },
+    "restart_prerequisites": [
+      "Genuinely new economic object with an identifiable, independent payoff",
+      "NOT a filter/regime/exit/execution/cost/portfolio-sizing/signal-combination/parameter layer",
+      "NOT a rebranding of a closed path (changed target/instrument/filter/combination/regime/parameter mining)",
+      "Repository-audited evidence traceable to file/dataset/methodology/experiment/result, OR explicitly flagged EVIDENCE LIMITATION (never treated as proof)",
+      "Validated M4 base module if the candidate is an execution/trade-path/portfolio/regime-specialist overlay",
+      "Complete R10/R11 economic chain + frozen, falsifiable M3 hypothesis (E[R_net]>0) + realistic frozen costs",
+      "No lookahead (causal/temporal validity); falsification defined ex-ante"
+    ],
+    "evidence_requirement": "Validated M4 base module AND repository-audited (or explicitly flagged) evidence",
+    "falsification": "NONE frozen for any candidate",
+    "next_milestone": "NONE — APEX remains paused",
+    "programme_status": "PAUSED — no candidate earns restart; scientifically correct successful control decision"
+  },
+  "research_workstreams": {
+    "smc_derived": {
+      "status": "INTEGRATED_HISTORICAL_WORKSTREAM",
+      "origin": "POST_M45",
+      "location": "research/SMC_RESEARCH/",
+      "completed_milestones": "SMC-R1 through SMC-R11",
+      "economic_modules_m4": 0,
+      "deployment_candidates_m5": 0,
+      "current_authorization": "NONE"
+    }
+  },
+  "ic6_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "decision": "BLOCKED — DATA AVAILABILITY",
+    "deribit_api_historical": "NOT AVAILABLE — public API only provides recent data (last 24-48h)",
+    "cryptodatadownload": "DVOL index only — no individual option bid/ask data",
+    "tardis_available": "YES — comprehensive historical data, requires download",
+    "eligible_observations": 0,
+    "ic5_minimum": 100,
+    "sample_gate": "FAIL",
+    "maturity_matching": "VALID — 100% of timestamps have valid expiry",
+    "strike_construction": "VALID — 100% deterministically constructed",
+    "black76_feasible": "YES — all non-price inputs available",
+    "methodology_issues": "NONE — IC5 frozen methodology is implementable",
+    "data_download_required": "Tardis.dev historical BTC options data (~2-3 GB, free)",
+    "next_milestone": "IC6-R2 — Re-run with Tardis data",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic5_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "decision": "CONTINUE",
+    "economic_methodology": "FROZEN",
+    "primary_payoff": "Long ATM straddle (call + put) held to European expiry",
+    "predicted_rv_mapping": "Walk-forward OLS: forward_RV = alpha + beta * risk_score",
+    "iv_representation": "ATM implied volatility (Black-76 from midpoint)",
+    "strike_rule": "Nearest strike to BTC-PERPETUAL mark price",
+    "maturity_rule": "Nearest expiry with TTE in [6h, 18h]",
+    "quote_freshness": "1 hour staleness threshold",
+    "cost_model": "0.04% taker fees x 4 legs; slippage not modeled",
+    "primary_baseline": "Unconditional ATM straddle (all eligible timestamps)",
+    "primary_null": "APEX signal does not improve expected net straddle payoff vs baseline",
+    "statistical_test": "One-sample t-test, HAC Newey-West lag=12, alpha=0.05 one-sided",
+    "entry_condition": "Continuous forecast-IV spread (no threshold frozen)",
+    "eligibility": "10 criteria frozen; no outcome-driven filtering",
+    "falsification_gates": "< 100 eligible obs, mean PnL not > 0, PnL <= baseline",
+    "data_still_required": "BTC options historical data (free, ~2-3 GB)",
+    "next_milestone": "IC6-R2 — Re-run with Tardis data",
+    "evidence_levels": {
+      "highest_reached": "Level 2+ — BTC Predictive Phenomenon (IC3)",
+      "not_reached": "Level 3 — Economic Translation (BTC options IV-RV)"
+    }
+  },
+  "ic2_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "decision": "CONTINUE",
+    "transfer_approach": "B: BTC Re-estimation (same architecture, BTC-native parameters)",
+    "transfer_approach_score": 43,
+    "architecture": "Rolling RV_N > 80th percentile → onset features → Cox PH → risk score → forward 12h RV forecast",
+    "eurusd_role": "Architectural motivation only; no EURUSD parameters transfer to BTC",
+    "btc_state_definition": "Rolling realized volatility over N M15 bars, 80th percentile threshold",
+    "primary_iv_representation": "ATM implied volatility from Deribit BTC options",
+    "maturity_matching": "12h forward RV vs 12h/24h option expiry (max 6h mismatch)",
+    "information_boundary": "At BTC HIGH_VOL onset: observable = BTC history, RV, features, risk score, predicted RV, current ATM IV; NOT observable = future prices, RV, IV",
+    "rejected_approaches": [
+      "A: Direct Structural Transfer (EURUSD parameters not applicable to BTC)",
+      "C: Cross-Market Latent State (RC014 rejected cross-asset transmission)"
+    ],
+    "data_required": "BTC M15 OHLCV + Deribit options historical data (all free, ~2-3 GB)",
+    "falsification_gate": "BTC C-index <= 0.55 -> STOP",
+    "next_milestone": "IC3 — BTC Transferability Pre-Economic Validation",
+    "evidence_levels": {
+      "highest_reached": "Level 3 — Economic Translation (M21, M27)",
+      "not_reached": "Level 4 — Tradeable Edge"
+    }
+  },
+  "ic1_result": {
+    "status": "COMPLETE",
+    "date": "2026-08-25",
+    "decision": "CONTINUE",
+    "top_candidate": "A: Crypto Options Vol Monetization",
+    "top_candidate_score": 42,
+    "instrument": "BTC options on Deribit",
+    "economic_mechanism": "Predicted RV > IV -> long straddle -> profit from convexity",
+    "key_assumption": "HIGH_VOL onset dynamics transfer from EURUSD to BTC (unvalidated)",
+    "rejected_candidates": [
+      "B: Barrier/Range Products (M31 saturation)",
+      "C: Relative-Value Volatility (insufficient predictive legs)",
+      "D: Directional Instrument (M24 eliminates direction)",
+      "E: EURUSD Options (data-constrained, LOW PRIORITY)"
+    ],
+    "next_milestone": "IC2 — Economic Mechanism Methodology Design",
+    "evidence_levels": {
+      "highest_reached": "Level 3 — Economic Translation (M21, M27)",
+      "not_reached": "Level 4 — Tradeable Edge"
+    }
+  },
+  "task03_governance": {
+    "task": "PAUSE & RESTART WATCHLIST / DORMANT-STATE CONTROL",
+    "task_type": "GOVERNANCE / DOCUMENTATION ONLY",
+    "date": "2026-08-30",
+    "programme_state": "APEX = PAUSED / DORMANT",
+    "M3": 0,
+    "M4": 0,
+    "M5": 0,
+    "active_research_milestone": "NONE",
+    "economic_hypothesis": "UNTESTED",
+    "restart_gate": ["R1 Genuine Economic Novelty", "R2 Independent Economic Object", "R3 Identifiable Compensation", "R4 Accessible Payoff", "R5 Auditable Evidence", "R6 Validated M4 Base Where Required (overlays require existing M4 = 0; HARD BLOCK)", "R7 Frozen Falsifiable M3 Hypothesis", "R8 No Lookahead", "R9 Realistic Costs", "R10 No Research Rescue"],
+    "restart_gate_status": "ALL UNSATISFIED for current candidate set",
+    "decision_states": {
+      "A": "Remain DORMANT (default)",
+      "B": "Watchlist REVIEW (no experiment/data/methodology)",
+      "C": "Mechanism review AUTHORIZED (articulation + evidence classification only)",
+      "D": "Methodology design AUTHORIZED (Control-only; M3 framing + costs + no-lookahead)",
+      "E": "Empirical execution AUTHORIZED (only after freeze + pre-execution validation)"
+    },
+    "progression_rule": "A trigger moves STATE A to B only. B to C to D to E each requires a separate explicit Control Session authorization. Nothing auto-advances beyond STATE B.",
+    "mechanism_watchlist": [
+      {
+        "id": "W1",
+        "theme": "Commodity Convenience Yield / Inventory Term Structure (Task 02 rows G1/G2)",
+        "status": "WATCHLIST-ONLY",
+        "evidence_class": "C - HYPOTHESIS / D - ARCHITECTURAL INFERENCE; NO A-class auditable evidence",
+        "blocker": "No futures-curve dataset in APEX; data acquisition not authorized while dormant",
+        "trigger": "T1"
+      },
+      {
+        "id": "W2",
+        "theme": "New Liquid Venue/Instrument Carrying Validated Vol Info with Independent Payoff (Task 02 row I2)",
+        "status": "WATCHLIST-ONLY",
+        "evidence_class": "C - HYPOTHESIS / D - ARCHITECTURAL INFERENCE; NO A-class auditable evidence",
+        "blocker": "No such instrument/venue exists or is observable today (IC8 s4D, RC015)",
+        "trigger": "T2"
+      }
+    ],
+    "external_triggers": {
+      "T1": "New accessible futures-curve dataset -> REVIEW of W1 (STATE A to B)",
+      "T2": "New liquid tradable instrument/venue -> REVIEW of W2 (STATE A to B)",
+      "T3": "Repository discovery of missing evidence (e.g. custom-bot Week-6 doc) -> evidence classification + repository audit ONLY",
+      "T4": "Independently documented economic mechanism outside closed set -> new-candidate REVIEW (STATE A to B)",
+      "T5": "Validated M4 module discovered in repository -> overlay-eligibility review only"
+    },
+    "trigger_semantics": "Triggers activate REVIEW only, never experimentation. T3 does not create M4 or unlock overlays. T5 relieves R6 overlay blocker but still requires all other gates R1-R5/R7-R10 and positive M3 framing.",
+    "closed_path_immutability": "HIGH_VOL economics (M34); session raw breakout (RC013); session-transition standalone/modular (M42); CME listed options (RC015); crypto-options/IV-RV/long straddle (IC7/IC8); BOS+OB (SMC-R7); CHOCH (SMC-R9-CR); cross-asset transmission (RC014); funding/carry (M49); RC012 Study-006 synthetic-straddle PoC; Execution-State overlay; Trade-Path/R-Velocity overlay; Portfolio-Risk overlay; Regime-specialist overlay; Cross-stream combination mining.",
+    "prohibited_restart_paths": ["Signal/model optimization", "Regime/filter optimization", "Exit optimization", "Risk/portfolio optimization", "Execution optimization", "Timeframe substitution", "Instrument substitution (mechanism unchanged)", "Terminology change / renaming"],
+    "custom_bot_evidence_limitation": "EVIDENCE LIMITATION — REQUIRES FUTURE REPOSITORY AUDIT. The original custom-bot Week-6 analysis document was NOT found in the repository; its observations (R-Velocity, ATR, ADX, volume, session, stale cache, portfolio clustering, execution) remain B - USER-SUPPLIED / OBSERVED, NOT validated APEX evidence. Finding it later (T3) triggers evidence classification + repository audit only, NOT research authorization.",
+    "future_session_safety_check": "Every new session MUST read docs/APEX_SESSION_HANDOFF.md and docs/APEX_SESSION_STATE.json, determine current_state/current_authorization/closed_paths/restart_conditions, and if APEX = PAUSED default to STOP.",
+    "next_action": "NONE (STOP)"
+  },
+  "research_knowledge_base": {
+    "master_index": "reports/APEX_MASTER_RESEARCH_INDEX.md",
+    "evidence_ledger": "reports/APEX_RESEARCH_EVIDENCE_LEDGER.csv",
+    "ledger_rows": 45,
+    "ledger_record_ids": "A001..A029, S001..S012, B001..B002, W001..W002",
+    "created_at": "APEX-M51",
+    "custom_bot_analysis": {
+      "status": "NOT FOUND",
+      "auditability": "UNAUDITED",
+      "path": "NOT_FOUND_ON_DISK",
+      "classification": "B - USER-SUPPLIED / OBSERVED (not validated)",
+      "search_scope": "Forensic filename + content scan of D:\\Gold Scripts\\MQL5 (excluding .git and the apex repo); 255 non-data candidate files content-scanned; only bot source CAB.py/ghost_grid.py/SMC.py found; no Week-6 statistical analysis document located",
+      "evidence_limitation": "EVIDENCE LIMITATION - REQUIRES FUTURE REPOSITORY AUDIT (T3); no promotion occurred"
+    },
+    "m4_global_count": 0,
+    "m3_modules": 0,
+    "m5_candidates": 0,
+    "economic_research_authorization": "NONE"
   },
   "obsolete_instructions": [
     "recover the 162 events",
@@ -141,6 +1278,123 @@
     "M33 should design a dynamic boundary methodology",
     "Dynamic translation is scientifically justified",
     "HIGH_VOL branch should continue",
-    "M34 should be an experiment"
+    "M34 should be an experiment",
+    "HIGH_VOL should continue",
+    "M35 is research-direction discovery only",
+    "M36 should be an experiment",
+    "M36 should test multiple session transitions",
+    "M36 should use KS test as primary",
+    "M37 should compute the real Anderson-Darling result",
+    "M37 should compare actual CDFs",
+    "M38 should run the real experiment",
+    "M38 should amend any frozen M36 parameter",
+    "M38 should compute bootstrap p-values",
+    "M38 should use positional shifting for overlap exclusion",
+    "M39 should amend methodology",
+    "M39 should change session definition",
+    "M39 should change bootstrap seed",
+    "M39 should add additional primary tests",
+    "M39 bootstrap result is valid",
+    "M40 can proceed without bootstrap correction",
+    "IC1 should run experiments",
+    "IC1 should acquire data",
+    "IC1 should design strategy",
+    "IC1 should test instruments",
+    "M40 is required before IC1",
+    "HIGH_VOL should be reopened for IC1",
+    "RC015 should be reopened for IC1",
+    "M40 characterization is required before economic mechanism",
+    "IC2 should run experiments",
+    "IC2 should acquire data",
+    "IC2 should design strategy",
+    "IC2 should test BTC volatility",
+    "IC2 should download options data",
+    "IC2 should calculate IV",
+    "EURUSD parameters should be applied directly to BTC",
+    "Direct parameter transfer is scientifically defensible",
+    "Cross-market latent state approach should be used",
+    "IC2 should backtest straddles",
+    "IC2 should begin IC3",
+    "IC3 should trade options",
+    "IC3 should calculate IV",
+    "IC3 should compute PnL",
+    "IC3 should optimize BTC parameters",
+    "IC3 should search alternative predictors",
+    "IC3 should begin IC4",
+    "BTC C-index threshold should be relaxed",
+    "IC4 should trade options",
+    "IC4 should calculate IV",
+    "IC4 should compute PnL",
+    "IC4 should backtest straddles",
+    "IC4 should begin IC5",
+    "IC4 should acquire data",
+    "BTC option data is not needed",
+    "EURUSD options data can substitute for BTC",
+    "IC5 should trade options",
+    "IC5 should calculate IV",
+    "IC5 should compute PnL",
+    "IC5 should backtest straddles",
+    "IC5 should begin IC6",
+    "IC5 should acquire data",
+    "IC5 should optimize strike selection",
+    "IC5 should optimize maturity selection",
+    "A threshold should be frozen in IC5",
+    "M46 should run an experiment",
+    "M46 should restart SMC-R12",
+    "M46 should authorize a new hypothesis automatically",
+    "SMC should become a competing master programme",
+    "Failed SMC artifacts should become automatic filters",
+    "SMC-R1 through R11 should be renumbered to merge with APEX-M series",
+    "R10/R11 governance should not apply to APEX core research",
+    "M47 should run an experiment",
+    "M47 should authorize empirical execution",
+    "M47 should test BOS+OB or CHOCH",
+    "M47 should test another timeframe for SMC",
+    "M47 should combine APEX and SMC without independent economic value",
+    "M47 should automatically continue to M48 empirical execution",
+    "M47 should select a candidate based on backtest performance",
+    "M48 should run an experiment",
+    "M48 should acquire funding data",
+    "M48 should test hedged carry architecture",
+    "M48 should test multiple instruments",
+    "M48 should combine APEX and SMC predictors",
+    "M48 should optimize hedge ratios",
+    "M48 should automatically continue to M51 empirical execution",
+    "M48-CR should authorize M49",
+    "M48-CR should authorize empirical execution",
+    "M48-CR should repair methodology silently",
+    "M48-CR should assume funding direction without validation",
+    "M48 should assume HIGH_VOL predicts funding without validation",
+    "M48 should freeze position direction before establishing funding mechanism",
+    "M49 should run an experiment",
+    "M49 should acquire funding data",
+    "M49 should assume HIGH_VOL predicts funding",
+    "M49 should freeze position direction before mechanism",
+    "M49 should continue funding path despite H1 failure",
+    "M50 should run an experiment",
+    "M50 should acquire vol swap data",
+    "M50 should promote custom-bot observations to validated findings",
+    "M50 should test R-Velocity as a filter without validation",
+    "M50 should test ADX/ATR/volume/session thresholds",
+    "M50 should combine CAB+Ghost+ADX+ATR+session into one backtest",
+    "M50 should add an execution/portfolio overlay without a validated base module",
+    "M50 should reopen funding/carry or any closed path",
+    "M50 should reopen the M42-closed session-transition economy",
+    "M50 should implement or test any custom-bot recommendation",
+    "POST-M50 CONTROL should authorize a candidate based on M50 score alone",
+    "POST-M50 CONTROL should treat user-supplied custom-bot observations as validated evidence",
+    "POST-M50 CONTROL should restart without a repository-audited source for the custom-bot analysis",
+    "POST-M50 CONTROL should authorize an execution/trade-path/portfolio overlay without a validated M4 base module",
+    "POST-M50 CONTROL should start M51 automatically",
+    "POST-M50 CONTROL should acquire data or run an experiment",
+    "POST-M50 CONTROL should convert BOS+OB/CHOCH into filters or role C/D modules without a new economic hypothesis",
+    "APEX Control Session should start M51 or any milestone automatically",
+    "APEX Control Session should authorize a bounded custom-bot audit that could materially change the restart decision (the document is absent on disk; it would not)",
+    "APEX Control Session should treat the absent custom-bot Week-6 document as auditable proof",
+    "APEX Control Session should restart without a genuinely new economic object and an independent payoff",
+    "APEX Control Session should run an experiment, design methodology, acquire data, or modify the bot",
+    "APEX Control Session should reopen any closed economic path (HIGH_VOL, breakout, session-transition, options, BOS+OB, CHOCH, cross-asset, funding/carry)",
+    "APEX Control Session should pursue execution/trade-path/portfolio overlay without a validated M4 base module",
+    "APEX Control Session should convert any M1/M2 validated primitive into an M4/economic module without a positive-net-after-cost economic test"
   ]
 }

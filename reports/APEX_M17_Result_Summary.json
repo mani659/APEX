@@ -1,0 +1,10 @@
+{
+    "total_events": 794,
+    "training_episodes_initial": 397,
+    "oos_predictions": 0,
+    "fit_failures": "ALL - lifelines dependency failure",
+    "conditional_c_index": null,
+    "baseline_c_index": null,
+    "delta_c_index": null,
+    "status": "BLOCKED - ENVIRONMENT"
+}

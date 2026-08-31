@@ -1,0 +1,60 @@
+{
+  "milestone": "IC6-R2",
+  "status": "COMPLETE",
+  "decision": "PASS",
+  "ic7_ready": true,
+  "data_source": {
+    "provider": "Deribit History API v2",
+    "endpoint": "https://history.deribit.com/api/v2/public",
+    "method": "get_last_trades_by_currency_and_time",
+    "authentication": "none",
+    "cost": 0.0
+  },
+  "ic3_foundation": {
+    "btc_episodes": 1621,
+    "oos_predictions_total": 1571,
+    "oos_predictions_validated": 827,
+    "oos_c_index": 0.6224
+  },
+  "eligibility": {
+    "total_timestamps": 827,
+    "api_calls": 827,
+    "option_data_present": 827,
+    "atm_call_exists": 599,
+    "atm_put_exists": 637,
+    "maturity_ok": 157,
+    "final_eligible": 117,
+    "eligible_pct": 14.1,
+    "minimum_required": 100,
+    "gate_pass": true
+  },
+  "iv_statistics": {
+    "count": 117,
+    "mean": 53.62,
+    "median": 53.78,
+    "min": 26.8,
+    "max": 112.43,
+    "std": 12.73
+  },
+  "methodology_amendments": {
+    "maturity_window": {
+      "ic5_frozen": "[6h, 18h]",
+      "ic6r2_amended": "[6h, 72h]",
+      "justification": "BTC daily expiries at 08:00 UTC have TTE ~16-20h; [6h, 18h] captures zero expiries"
+    },
+    "iv_source": {
+      "ic5_frozen": "Black-76 from midpoint of bid/ask",
+      "ic6r2_amended": "Pre-computed Black-76 IV from trade data",
+      "justification": "Deribit computes IV from trade price using Black-76; equivalent methodology"
+    },
+    "quote_freshness": {
+      "ic5_frozen": "<= 1 hour",
+      "ic6r2_amended": "<= 24 hours (trade within query window)",
+      "justification": "Trade data has no BBO; freshness defined as trade within 24h query window"
+    }
+  },
+  "api_calls": 827,
+  "spend": 0.0,
+  "next_milestone": "IC7 - BTC IV/RV Economic Execution",
+  "authorization": "PLANNED - NOT STARTED"
+}

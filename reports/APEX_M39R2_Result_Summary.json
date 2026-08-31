@@ -1,0 +1,68 @@
+{
+  "milestone": "M39-R2-EXEC",
+  "status": "COMPLETE",
+  "date": "2026-08-24",
+  "research_question": "Does LONDON_NY_OVERLAP produce a statistically distinct CDF of 1-hour forward returns under a correctly specified null?",
+  "correction_summary": "M39 bootstrap preserved labels (invalid). M39-R2-EXEC randomizes labels (valid).",
+  "sample_sizes": {
+    "transition_lno": 2757,
+    "control": 29184,
+    "total_eligible": 31941
+  },
+  "observed_statistic": {
+    "test_name": "Two-sample Anderson-Darling",
+    "implementation": "scipy.stats.anderson_ksamp",
+    "ad_statistic": 228.382562
+  },
+  "scipy_diagnostic": {
+    "significance_level": 0.001,
+    "role": "SECONDARY DIAGNOSTIC ONLY",
+    "note": "Discretized lower bound, not continuous p-value"
+  },
+  "permutation_test": {
+    "null_construction": "Day-block permutation with random label assignment",
+    "block_size": 24,
+    "n_blocks": 1331,
+    "n_replications": 10000,
+    "seed": 42,
+    "rng": "PCG-64",
+    "label_assignment": "Random assignment of N_LNO labels from pooled observations",
+    "group_size_preservation": "N_LNO=2757, N_CTRL=29184",
+    "p_value_formula": "(1 + exceedances) / (1 + N_rep)"
+  },
+  "null_distribution": {
+    "mean": -0.00766,
+    "median": -0.310692,
+    "std": 1.001076,
+    "min": -1.165348,
+    "p5": -0.948507,
+    "p95": 1.941382,
+    "max": 11.973414
+  },
+  "primary_result": {
+    "exceedance_count": 0,
+    "n_valid_replications": 10000,
+    "empirical_p_value": 0.0001,
+    "alpha": 0.05,
+    "reject_h0": true,
+    "decision": "DISTRIBUTIONAL DIFFERENCE ESTABLISHED"
+  },
+  "comparison_with_m39": {
+    "m39_null_construction": "Block bootstrap with preserved labels (INVALID)",
+    "m39_p_value": 0.5445,
+    "m39_status": "INVALIDATED BY M39-CR",
+    "m39r2_null_construction": "Day-block permutation with randomized labels (VALID)",
+    "m39r2_p_value": 0.0001,
+    "m39r2_status": "VALID"
+  },
+  "cohens_d": 0.003733,
+  "methodology_integrity": "PASS",
+  "methodology_deviations": [],
+  "limitations": [
+    "FOMC/ECB exclusions not applied (robustness-only per M38)",
+    "Permutation seed = 42 (reproducible but seed-dependent)"
+  ],
+  "external_api_calls": 0,
+  "new_data_acquired": 0,
+  "spend": "$0.00"
+}

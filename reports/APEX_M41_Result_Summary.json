@@ -1,0 +1,67 @@
+{
+  "milestone": "M41",
+  "status": "COMPLETE",
+  "m39_r2_foundation": "DISTRIBUTIONAL DIFFERENCE ESTABLISHED (AD=228.38, p=0.0001)",
+  "observed_sample": {
+    "transition": 2757,
+    "control": 29184,
+    "total": 31941
+  },
+  "permutation_config": {
+    "replications": 10000,
+    "seed": 42,
+    "block_size": 24,
+    "n_blocks": 1331
+  },
+  "hierarchy_results": [
+    {
+      "component": "Location",
+      "statistic_name": "Mean difference",
+      "observed": 3.62549194675168e-06,
+      "lno_value": 1.576437536366714e-06,
+      "ctrl_value": -2.049054410384966e-06,
+      "null_mean": 2.740548783504788e-07,
+      "null_std": 1.9435157109171423e-05,
+      "null_p5": -3.151666375432512e-05,
+      "null_median": 2.9875800157060524e-07,
+      "null_p95": 3.194690056514908e-05,
+      "exceedance_count": 4366,
+      "empirical_p": 0.43665633436656337,
+      "decision": "FAIL TO REJECT",
+      "hierarchy_position": 1,
+      "direction": "one-sided upper"
+    },
+    {
+      "component": "Scale",
+      "statistic_name": "Std difference",
+      "observed": 0.0005873116773421252,
+      "lno_value": 0.0014936081618070246,
+      "ctrl_value": 0.0009062964844648994,
+      "null_mean": -4.513773402510264e-07,
+      "null_std": 4.075187714921344e-05,
+      "null_p5": -6.386511234623556e-05,
+      "null_median": -1.8681719786138346e-06,
+      "null_p95": 6.958464782048658e-05,
+      "exceedance_count": 0,
+      "empirical_p": 9.999000099990002e-05,
+      "decision": "REJECT",
+      "hierarchy_position": 2,
+      "direction": "two-sided"
+    }
+  ],
+  "hierarchy_stopping_point": 2,
+  "primary_component": "Scale",
+  "primary_decision": "COMPONENT IDENTIFIED",
+  "descriptive_stats": {
+    "lno_mean": 1.576437536366714e-06,
+    "ctrl_mean": -2.049054410384966e-06,
+    "lno_std": 0.0014936081618070246,
+    "ctrl_std": 0.0009062964844648994,
+    "lno_skew": -0.4544966847714641,
+    "ctrl_skew": 0.25538217888269504,
+    "lno_q5": -0.00224460619148804,
+    "ctrl_q5": -0.001319677119110845,
+    "lno_q95": 0.002181709311383658,
+    "ctrl_q95": 0.0013072557209912498
+  }
+}
