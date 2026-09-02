@@ -53,6 +53,22 @@ venv.bak/
 *.zip
 *.rar
 
+# APEX security & large-data exclusions (NEVER weaken — protects secrets / raw datasets)
+DATABENTO_API_KEY.md
+replacements.txt
+.freebuff/
+scratch/
+data/bbo/
+data/btc/
+data/databento/
+data/m1/
+datasets/
+qualification_logs/
+telemetry_logs/
+simulation/
+simulator/
+MQL5/Files/
+
 # IDEs and OS Temporary Files
 .vscode/
 .antigravity-ide/

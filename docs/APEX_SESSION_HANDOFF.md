@@ -623,3 +623,56 @@ The new session needs only the **Tier 1 + Tier 2 + Tier 3** set (plus the worksp
 
 - Session safety applies unchanged: every new session must read this handoff + `docs/APEX_SESSION_STATE.json`; if APEX = PAUSED, default to STOP.
 
+## APEX-M52 — Economic Opportunity Discovery Engine
+
+**Milestone:** APEX-M52 — Economic Opportunity Discovery Engine.
+**Purpose:** DISCOVERY-ONLY search of the accumulated research base for genuinely new economic mechanisms. No experiment / backtest / PnL / data acquisition / parameter / filter / threshold / timeframe / combination search.
+**Authorization:** This one discovery pass is the explicitly authorized Control-Session review (recorded as the required explicit authorization). It supersedes the general "nothing auto-advances" default only for this authorized DISCOVERY pass. No empirical execution is authorized.
+**m3_modules:** 0 · **m4_modules:** 0 · **m5_candidates:** 0 · **economic_research_authorization:** "NONE (unchanged; discovery only)".
+**Decision:** **NO CURRENT CANDIDATE AUTHORIZED FOR EMPIRICAL EXECUTION.** One future **methodology-design** cycle is *recommended* (not started): LNO-dispersion microstructure characterization (Candidate C2), pending a separate Control-Session review.
+**Top candidate (economic object):** **C1 — HIGH_VOL-continuity Liquidity Provision** (compensated-risk object = bid–ask spread + adverse-selection/inventory risk; never tested; non-directional; aligned to validated HIGH_VOL timing/persistence). Flags material Control-Session risk: may be judged "existing practice / engineering"; the information-driven *state-contingent liquidity provision* is the claimed new economic content.
+**Recommended next design:** **C2 — LNO-dispersion Microstructure Primitive** (Path B; uses APEX's own tick data, no acquisition, no PnL) to test whether the LNO dispersion event is a liquidity-demand/adverse-selection event — removes the biggest uncertainty for C1 and is the lowest-rescue-risk next step.
+**Discovery scope examined:** liquidity provision, adverse selection, inventory imbalance, basis/financing, convexity/optionality, volatility asymmetry, state transition, forced positioning, path dependence, rare-event. Full detail in `reports/APEX_M52_Economic_Opportunity_Discovery.md`.
+**Outcome:** M52 discovery report + scorecard CSV + result created; handoff + state updated (`current_milestone` = APEX-M52; APEX-M52 block).
+**Compliance:** External API calls = 0 · new data acquired = 0 · experiments = 0 · spend = $0.00.
+**Control stop (§36):** **STOP after M52. Await Control-Session review. No M53 or any experiment is started.**
+**M45–M51 conclusions preserved unchanged.**
+
+## APEX-M52-CR — Economic Opportunity Control Review
+
+**Milestone:** APEX-M52-CR — Economic Opportunity Control Review.
+**Purpose:** CONTROL / METHODOLOGY-REVIEW ONLY. Adjudicate whether M52's recommended candidate C2 (LNO-dispersion Microstructure Primitive) genuinely deserves ONE methodology-design cycle. No experiment / PnL / expectancy / microstructure testing / strategy / methodology / threshold / instrument / parameter search / data acquisition.
+**Status:** COMPLETE — **Decision C — KEEP APEX PAUSED.**
+**C1:** HIGH_VOL-continuity Liquidity Provision — FAILS gate (HIGH_VOL predicts persistence, not adverse-selection/spread; requires the same missing microstructure evidence as C2).
+**C2:** LNO-dispersion Microstructure Primitive — **REJECTED as not a genuinely new economic object.** The validated M41 evidence contains NO microstructure variable (hourly close-return dispersion ~1.65×, no location). C2's spread/depth/adverse-selection state requires NEW XAUUSD-LNO bid/ask data NOT in the validated corpus (on-repo `data/bbo/*.dbn` are CME EURUSD options BBO from RC015 — closed, background-only, different instrument). The M42 "deterministic + publicly-known + no information asymmetry" objection transfers verbatim to any microstructure re-description of LNO (already priced by the market makers who post spreads). C2 collapses into C1.
+**Selected candidate:** NONE.
+**Economic object:** NOT genuinely new (M52-CR; C2 = re-description of deterministic LNO; C1 collapse).
+**Mechanism:** None viable — no validated microstructure variable; deterministic publicly-priced state ⇒ no compensable edge.
+**Payoff:** None — descriptive re-framing; positive-net chain impossible against a deterministic, publicly-priced state.
+**M3:** 0 · **M4:** 0
+**Authorization:** NONE — no empirical work, methodology design, bounded discovery refinement, data acquisition, or bot modification.
+**Next milestone:** NONE — APEX remains PAUSED / CONTROLLED RESEARCH.
+**Control decision basis:** M52's 48/60 for C2 reflected research-information value of a question, held to be NOT evidence of economic substance; control re-score ~23/60. A high discovery score must not become automatic authorization.
+**Outputs:** `reports/APEX_M52_CR_Economic_Opportunity_Review.md`, `APEX_M52_CR_Economic_Opportunity_Scorecard.csv`, `APEX_M52_CR_RESULT.md`; handoff + state updated.
+**Compliance:** External API calls = 0 · new data = 0 · experiments = 0 · spend = $0.00.
+**Control stop (§36):** **STOP after M52-CR. Await Control-Session review. No M53 or any experiment is started.**
+**M41/M42/M45–M52 conclusions preserved unchanged.**
+
+## Post-APEX Strategic Review — Strategic Disposition Record
+
+**Type:** POST-APEX STRATEGIC REVIEW — research-architecture reassessment + full git/GitHub backup. **Not** a research milestone (no M53, no RB designation, no experiment, no data acquisition, no API, no spend, no methodology/bot modification).
+**Status:** COMPLETE.
+**Disposition:** **OUTCOME B — APEX REMAINS PAUSED.**
+**Central conclusion:** Repeated APEX failure is at **ECONOMIC TRANSDUCTION** (converting validated non-directional volatility information into a compensable, instrument-linked payoff). Relational recombination of already-validated non-directional primitives cannot cross that gap — two non-directional magnitudes compose to another non-directional magnitude with no payer/payoff identified.
+**Second-generation relational architecture:** **NONE survives internally.** Assessed (Part 10 A–J): joint state-machine over validated primitives (re-parameterization), cross-layer signal engine (stacking/no base), liquidity/microstructure specialist (M52-CR; existing-practice IC9), convenience-yield (W1, externally gated), new-venue host (W2, externally gated). Only **W1/W2** retain genuine strategic potential and both require **external instrument/data development** (M45 Conditions A/D; triggers T1/T2), not internal research.
+**RB001–RB004:** **VERIFIED ABSENT from disk.** No APEX Research Branch Registry and no RB001–RB004 documents exist anywhere (state, handoff, ledger, index, reports). The dormant-branch *concept* was assessed against evidence; only W1/W2 preserved as watchlist. Nothing fabricated.
+**"1+6→2" question:** fails Part 5's 12 criteria at the economic layer (criteria 3–7: no economic interpretation / payer / compensator / instrument / causal chain); reduces to descriptive statistics or feature-stacking.
+**M3 / M4 / M5:** 0 / 0 / 0. **Programme status:** PAUSED / CONTROLLED RESEARCH — UNCHANGED. **Authorization:** NONE.
+**Restart paths (only):** W1 (commodity convenience-yield / futures-curve; trigger T1) and W2 (un-priced venue for validated vol info; trigger T2); T3/T4/T5 unchanged. All future work follows the R1–R10 decision ladder, requires explicit Control-Session authorization, and defers to STOP.
+**Outputs:** `reports/APEX_POST_APEX_STRATEGIC_REVIEW.md`; state updated (`post_apex_strategic_review` block); handoff updated.
+**Git backup:** full archive commit + push to `origin/main` (https://github.com/mani659/APEX.git) performed with this review.
+**Compliance:** External API calls = 0; new data acquired = 0; experiments = 0; spend = $0.00.
+**M45–M52-CR conclusions preserved unchanged.** No closed path reopened; no history rewritten.
+
+- Session safety applies unchanged: every new session must read this handoff + `docs/APEX_SESSION_STATE.json`; if APEX = PAUSED, default to STOP.
+

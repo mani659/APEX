@@ -1,0 +1,7 @@
+candidate,economic_object,novel_economic_object,mechanism_clarity,information_alignment,payoff_alignment,evidence_foundation,ex_ante_freezeability,cost_feasibility,oos_feasibility,m3_potential,m4_potential,research_information_value,rescue_engineering_risk_lower_better,total_12_5,verdict
+C1,Liquidity_Provision_HIGH_VOL_Continuity,4,4,4,4,3,4,3,3,3,3,4,2,41,TOP_ECONOMIC_OBJECT
+C2,LNO_Dispersion_Microstructure_Primitive,5,3,5,3,4,5,4,4,3,2,5,5,48,TOP_INFORMATION_VALUE (recommended next)
+C4,Forced_Positioning_Liquidation_Flash_Primitive,4,3,4,3,3,4,3,3,2,2,3,4,38,CARRY (absorbs into C1/C2)
+C3,SpotPerp_Basis_Financing_HIGH_VOL,2,2,3,2,2,3,2,2,1,1,2,1,23,REJECTED (reopens M49 funding/carry)
+C5,Volatility_Path_Dependence,3,2,3,2,2,3,2,2,2,1,2,2,26,REJECTED (path-optimization without M4 base)
+C6,Rare_Event_Systemic_Jump,4,2,3,2,1,2,1,1,2,1,2,3,24,ELIMINATED (no qualifying evidence; R11 preserved)

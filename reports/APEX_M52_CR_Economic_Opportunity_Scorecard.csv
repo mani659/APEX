@@ -1,0 +1,17 @@
+milestone_status,APEX-M52-CR CONTROL REVIEW
+candidate,C2 — LNO-Dispersion Microstructure Primitive
+review_basis,Re-scored under control scrutiny; M52 48/60 reflected research-information value, NOT economic substance
+dimension,score_1_5,notes
+Novel_economic_object_distinct_from_M41,2,Re-description of deterministic LNO event via microstructure lens; columns effectively identical to M41
+Mechanism_clarity_compensation_identifiable,2,Collapses into C1 market-making; no distinct compensating agent; M42 deterministic objection applies verbatim
+Information_alignment_LNO_evidence_useful,2,Validated evidence is hourly return dispersion only; no microstructure variable validated
+Payoff_alignment_concrete_payoff_possible,1,None; descriptive re-framing with no independent payoff; 'spread capture' is C1's, unresolved
+Data_feasibility_observation_architecture,2,Requires NEW bid/ask/order-book layer for XAUUSD-LNO; not held in validated corpus
+Execution_feasibility_realistic_implementation,3,n/a for pure characterization; C1 route demands unrealistic passive-limit/queue/inventory precision
+Cost_transparency_relevant_costs_measurable,2,None specified; SMC small-gross-vs-costs lesson unaddressed
+Ex_ante_freezeability_one_clean_methodology,2,No single clean methodology; risks microstructure-mining (try several definitions)
+Scientific_novelty_genuinely_new,2,Question partly new; economic object NOT new
+M3_potential_positive_net_hypothesis_plausible,1,No positive-net hypothesis possible against a deterministic, publicly-priced state
+M4_potential_could_become_module,1,No module without validated base component / independent payoff
+Research_information_value_major_uncertainty_reduced,3,Would reduce microstructure uncertainty but only for an already-closed deterministic phenomenon
+TOTAL,23,ECONOMIC SUBSTANCE NOT ESTABLISHED — GATE FAILED; DECISION C (KEEP APEX PAUSED)
